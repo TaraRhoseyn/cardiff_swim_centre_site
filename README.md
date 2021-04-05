@@ -1,5 +1,6 @@
 <h1>Cardiff Swim Centre (MS1)</h1>
-![Cardiff Swim Centre Logo](assets/images/logo.png)
+<img src="assets/images/logo.png" alt="Cardiff Swim Centre Logo" width="200" height="200">
+
 <hr>
 
 <!-- description of the website, link to deployed version and mockup of website-->
