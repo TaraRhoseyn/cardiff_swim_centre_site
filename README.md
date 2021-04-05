@@ -1,5 +1,5 @@
-#Cardiff Swim Centre (MS1)
-![Cardiff Swim Centre Logo](assets/logo.png)
+<h1>Cardiff Swim Centre (MS1)</h1>
+![Cardiff Swim Centre Logo](assets/images/logo.png)
 <hr>
 
 <!-- description of the website, link to deployed version and mockup of website-->
