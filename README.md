@@ -26,7 +26,7 @@ I have designed this website with mobile in mind by creating bite-sized easily d
 
 I have structured each page according to the information architecture organising principle of placing the most important content 'above the fold', then working my way down in order of priority. 
 
-The user experience is structured around two main goals, the user to (a) discover CSW's location and brand philosophy, and (b) to convert into members. Call to actions to these goals are found throughout the website and are given priority through the colour scheme, e.g. more important CTAs are more eye-catching. For example, the navigation bar displays a "Join" button in the top of all pages.
+The user experience is structured around two main goals, (a) to allow the users to discover CSW's location and brand philosophy, and (b) to users convert into members. Call to actions to these goals are found throughout the website and are given priority through the colour scheme, e.g. more important call to actions are more eye-catching. For example, the navigation bar displays a "Join" button in the top of all pages.
 
 <h3>Target Audience</h3>
 
@@ -56,6 +56,34 @@ Regular visitors
 3. As a regular visitor, I want to understand the pricing model to understand if becoming a member is cost effective. 
 4. As a regular visitor, I want to be able to see what the pool offers to see if there are any updates.
 
+<h2>Design</h2>
+
+My overall approach to the design came from a desire to create a brand that was modern, clean, aesthetically pleasing. From a UX perspective, I also wanted a site that was easily navigable and did not cause cognitive overload. 
+
+The visual language of the website takes it's inspiration from water, much of the components have a fluidity, softness and curviture. 
+
+<h3>Colour Scheme</h3>
+
+I have created a contrasting colour scheme of blue and orange with shades of blue being the primary colour. I chose a complementary colour scheme (blue/orange) to be able to draw particular attention to key call to actions. 
+
+I picked blue first, as this gives the user memories and associations of water. It's also a colour often associated with safety and security in marketing/branding.
+
+<h3>Typography</h3>
+
+My heading font is Nunito from Google Fonts. I chose this font because:
+- The soft and curvy form that goes well with the rest of the visual language
+- It's a sans-serif font which is more accessible for people with dyslexia. Sans-serif is the back-up font is Nunito fails. 
+
+My body font is Montserrat. I chose this font because of:
+- Wide availability on web browsers. 
+- It compliments Nunito well as it's also a largely circular and soft font, but it also contrasts enough with Nunito in terms of font weight to offer a pleasing contrast.
+
+
+<h3>Imagery</h3>
+
+All images on the website are of professional quality and fully licensed. They usually depict swimmers in action to convey a dynamic, lively, and aspiration visual language. Please see 'Credits' section for more information on licenses.
+
+They're striking images that give an energetic feel to the website which stands out particularly well against the white space and modern aesthetic of the overall design. 
 
 
 <h3>Wireframes</h3>
