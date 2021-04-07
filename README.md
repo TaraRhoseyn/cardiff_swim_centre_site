@@ -3,7 +3,7 @@
 
 <hr>
 
-<!-- description of the website, link to deployed version and mockup of website-->
+<h2> Overall Goals of the Website </h2>
 
 The business goals of Cardiff Swim Centre (hereinafter referred to as CSW):
 
@@ -19,3 +19,8 @@ The user goals:
 - Understand the differences between individual session pricing and membership pricing.
 - Find information about facilities at the pool.
 - Find out where the pool is located and parking information.
+
+<h2>User Experience</h2>
+
+<h3>Wireframes</h3>
+- <a href="https://www.figma.com/file/ZRhJJ2FH2fxboh1Esi0kTp/MS1-Wireframe?node-id=0%3A1">Wireframes</a>
