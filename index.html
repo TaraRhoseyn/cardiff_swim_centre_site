@@ -9,20 +9,38 @@
 </head>
 <body>
     <header>
-       <nav class="navbar">
+        <!--Navigation, credit: Bootstrap template -->  
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <ul class="navbar-nav">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/images/logo.png" alt="Caridff Swim Centre Logo" width="120" height="120">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Timetable</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+              <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Caridff Swim Centre Logo" width="120" height="120"></a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Timetable</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
                 </ul>
-            <button type="button"><a href="#"></a>Join</button>    
+              </div>
+              <button class="nav-join" type="button d-md-none"><a href="#">Join</a></button> 
             </div>
-        </nav>
+          </nav>
+       
     </header>
     <section class="hero-image-cta">
         <img src="assets/images/hero-image.png" alt="A man in the middle of a butterfly stroke" width=100%>
