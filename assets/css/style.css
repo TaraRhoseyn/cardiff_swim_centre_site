@@ -1,5 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
+/* Typography */
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+li {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
 /* Nav bar */
 
 @media screen and (min-width: 0px) {
@@ -89,3 +128,4 @@ ul {
 .navbar-light .navbar-nav .nav-link {
     color: #000;
 }
+
