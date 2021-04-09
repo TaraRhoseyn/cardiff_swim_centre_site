@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+/* Nav bar */
+
+@media screen and (min-width: 0px) {
+    .nav-link {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        margin: 1px;
+        color: #000;
+        padding: 3px;
+        margin-left: 7px;
+    }
+    .nav-item {
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .nav-link {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        margin-left: 7px;
+        color: #000;
+    }
+
+    .nav-item {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1272px) {
+    .nav-link {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        margin: 30px;
+        color: #000;
+    }
+}
+
+.navbar img {
+    margin: 8px 8px;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+.nav-join {
+    border: none;
+    width: 8em;
+    padding: 5px;
+    border-radius: 50px;
+    margin-right: 15px;
+    background-color: #0043A8;
+}
+
+.nav-join a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.nav-join:hover {
+    background-color: #000;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    width: 2.5em;
+    height: 2.5em;
+        
+}
+
+
+/* credit: Learnt how to change colour of toggle icon from this tutorial: https://stackoverflow.com/questions/65161206/how-to-change-bootstrap-navbar-toggler-icon*/
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,67,168,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
