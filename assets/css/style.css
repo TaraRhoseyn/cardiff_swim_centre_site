@@ -129,3 +129,46 @@ ul {
     color: #000;
 }
 
+/* Hero image */
+
+.hero-image-cta {
+    background-image: url("../images/hero-image.png");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    text-align: center;
+    text-justify: center;
+    
+}
+
+.hero-image-cta h1 {
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 4px;
+
+}
+
+.hero-image-cta h3 {
+    color: white;
+    margin-top: 30px;
+
+}
+
+.hero-image-cta button {
+    border: none;
+    width: 8em;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 0 auto;
+    background-color:#FD4505;
+    margin-top: 34px;
+
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
