@@ -172,3 +172,126 @@ ul {
     letter-spacing: 1px;
 
 }
+
+/* Features section */ 
+
+.pool-square, .benefits-square {
+    background-color: #DFF9FF;
+    margin-top: 50px;
+    border-radius: 30px;
+    position: relative;
+
+}
+
+.pool-square > ul > li {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.pool-square h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.benefits-square h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pool-square ul {
+    list-style: none;
+    padding-bottom: 60px;
+}
+
+.benefits-square ul {
+    list-style: none;
+    padding-bottom: 60px;
+}
+
+.benefits-square > ul > li {
+    display: block;
+    margin-bottom: 12px;
+}
+
+/* fix: Fixed line spacing error in list items by removing bottom padding on tick icon */
+
+.fa-check {
+    color: #66C793;
+    font-size: 20px;
+    padding-right: 6px;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .pool-square {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .benefits-square {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pool-square {
+        width: 90%;
+        left: 26px;
+        margin-bottom: 40px;
+    }
+
+    .benefits-square {
+        width: 90%;
+        left: 26px;
+        margin-bottom: 40px
+    }
+}
+
+.features-container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.pool-button {
+    background-color: #FFF;
+    border-color: #19DDEC;
+    border-width: 3px;
+    border-radius: 50px;
+    border-style: solid;
+
+    position: absolute;
+    margin: 0 auto;
+    left: 25%;
+    margin-top: -30px;
+
+    width: 200px;
+    height: 60px;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+}
+
+.benefits-button {
+    background-color: #19DDEC;
+    border-style: none;
+    border-radius: 50px;
+
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-top: -30px;
+
+    width: 200px;
+    height: 60px;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    left: 25%;
+}
+
