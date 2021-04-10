@@ -28,13 +28,13 @@ h4 {
 
 p {
     font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 li {
     font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -377,5 +377,45 @@ ul {
 .location-container .fas, .location-container .far  {
     padding-right: 5px;
     padding-left: 5px;
+}
+
+/* Footer */
+
+.footer-container {
+    background-color: #0043A8;
+    color: #fff;
+    margin-top: 90px;
+    text-align: left;
+    height: 150px;
+}
+
+.footer-container ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.footer-container li {
+    justify-content:center;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.footer-ctas {
+    float: left;
+}
+
+.social-media-links {
+    float: right;
+    display: inline-block;
+    color: #fff;
+}
+
+.social-media-links li {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    padding: 20px;
 }
 
