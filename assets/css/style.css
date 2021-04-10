@@ -344,3 +344,38 @@ ul {
 .ethos-container p {
     padding-bottom: 20px;
 }
+
+.ethos-container button {
+    border: none;
+    width: 10em;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 0 auto;
+    background-color:#FD4505;
+    margin-top: 34px;
+
+    color:#fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Location */
+
+.location-container ul {
+    list-style: none;
+}
+
+.location-container li {
+    font-size: 20px;
+}
+
+.location-container h2 {
+    padding-bottom: 30px;
+}
+
+.location-container .fas, .location-container .far  {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
