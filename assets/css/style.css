@@ -295,3 +295,52 @@ ul {
     left: 25%;
 }
 
+/* Ethos section */ 
+
+
+.ethos-container {
+    padding-top: 160px;
+    margin-bottom: 80px;
+
+}
+
+/* Learnt how to make CSS grids through this tutorial: https://www.w3schools.com/css/css_grid.asp*/
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    
+  }
+
+.item-1 {
+    margin-top: -200px;
+  }
+
+.item-2 {
+    margin-top: -100px;
+}
+
+.item-4 {
+    margin-top: -200px;
+}
+
+.item-5 {
+    margin-top: -100px;
+}
+
+.ethos-image-grid {
+    margin-top: 100px;
+}
+
+.ethos-container h2 {
+    padding-bottom: 20px;
+}
+
+.ethos-container p {
+    padding-bottom: 20px;
+}
