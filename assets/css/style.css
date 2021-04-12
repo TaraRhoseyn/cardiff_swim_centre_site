@@ -463,6 +463,14 @@ ul {
     margin-bottom: 50px;
 }
 
+.about-value-text b {
+    font-size: 22px;
+}
+
+.about-facilities-intro h2 {
+    margin-bottom: 40px;
+}
+
 /* Facilities section */ 
 
 .about-facilities-intro {
