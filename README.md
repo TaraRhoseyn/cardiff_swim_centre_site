@@ -1,6 +1,8 @@
 <h1>Cardiff Swim Centre (MS1)</h1>
 <img src="assets/images/logo.png" alt="Cardiff Swim Centre Logo" width="200" height="200">
 
+<a href="https://tararhoseyn.github.io/CardiffSwimCentreMS1/index.html" target="_blank">View the deployed website</a>
+
 <hr>
 
 <h2> Overall Goals of the Website </h2>
