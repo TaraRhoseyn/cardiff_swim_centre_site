@@ -97,6 +97,7 @@ ul {
 
 .nav-join {
     border: none;
+    border: none;
     width: 8em;
     padding: 5px;
     border-radius: 50px;
@@ -387,7 +388,7 @@ ul {
 
 /* Footer */
 
-.footer-container {
+.footer-container-desktop {
     background-color: #0043A8;
     color: #fff;
     margin-top: 90px;
@@ -395,13 +396,13 @@ ul {
     height: 150px;
 }
 
-.footer-container ul {
+.footer-container-desktop ul {
     list-style: none;
     text-align: left;
     margin-top: 30px;
 }
 
-.footer-container li {
+.footer-container-desktop li {
     justify-content:center;
     vertical-align: middle;
     letter-spacing: 1px;
@@ -423,6 +424,31 @@ ul {
     vertical-align: middle;
     font-size: 40px;
     padding: 20px;
+}
+
+.footer-ctas-mobile {
+    color: #fff;
+    position: absolute;
+    background-color: #0043A8;
+    color: #fff;
+    text-align: left;
+    height: 150px;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+
+}
+
+.footer-ctas-mobile {
+    position: relative;
+    clear: both;
+}
+
+.footer-text-mobile {
+    position: relative;
+    clear: both;
+    padding: 0;
+    margin: 0;
 }
 
 /* About page */ 
@@ -469,6 +495,10 @@ ul {
 
 .about-facilities-intro h2 {
     margin-bottom: 40px;
+}
+
+#founder-image {
+    width: 90%;
 }
 
 /* Facilities section */ 
