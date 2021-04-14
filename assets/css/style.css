@@ -656,3 +656,10 @@ input, label {
     font-weight: 600;
     letter-spacing: 1px;
 }
+
+#contact-image {
+    width: 90%;
+    height: 90%;
+
+    border-radius: 50px;
+}
