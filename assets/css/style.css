@@ -579,7 +579,7 @@ ul {
     margin: 0 auto;
     background-color:#FD4505;
 
-    color:#fff;
+    color:fff;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -587,4 +587,72 @@ ul {
 
 #card-five-btn {
     margin-top: 14px;
+}
+
+/* FORM */ 
+
+.form {
+    display:block;
+}
+
+.form-input {
+    background-color: #F0F0F0;
+    border: none;
+    border-radius: 15px;
+
+    width: 80%;
+    height: 50px;
+}
+
+.form-input:focus {
+    background-color: white;
+}
+
+#query {
+    height: 170px;
+}
+
+/* credit for input and label display property: https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs */
+
+input, label {
+    display:block;
+}
+
+#submit-button {
+    border: none;
+    width: 8em;
+    padding: 5px;
+    border-radius: 50px;
+    background-color:#FD4505;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    display: inline-block;
+    float: clear;
+
+
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#reset-button {
+    border-width: 2px;
+    border-color: #FD4505;
+    border-style: solid;
+    width: 5em;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #fff;
+
+    margin-left: 15px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    display: inline-block;
+
+
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
