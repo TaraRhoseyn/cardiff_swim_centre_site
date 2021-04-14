@@ -47,6 +47,10 @@ li {
 
 /* Nav bar */
 
+.navbar-bg {
+    background-color: #DFF9FF;
+}
+
 @media screen and (min-width: 0px) {
     .nav-link {
         font-family: 'Nunito', sans-serif;
