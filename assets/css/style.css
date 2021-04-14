@@ -132,7 +132,7 @@ ul {
 
 
 /* credit: Learnt how to change colour of toggle icon from this tutorial: https://stackoverflow.com/questions/65161206/how-to-change-bootstrap-navbar-toggler-icon*/
-.navbar-light .navbar-toggler-icon {
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,67,168,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
@@ -589,6 +589,13 @@ ul {
     margin-top: 14px;
 }
 
+/* CONTACT PAGE */
+
+/* HEADING */
+
+.contact-heading h1 {}
+
+
 /* FORM */ 
 
 .form {
@@ -627,8 +634,6 @@ input, label {
     margin-top: 34px;
     margin-bottom: 34px;
     display: inline-block;
-    float: clear;
-
 
     color:#fff;
     font-size: 20px;
