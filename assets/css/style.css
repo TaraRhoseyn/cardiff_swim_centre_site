@@ -432,7 +432,7 @@ ul {
     background-color: #0043A8;
     color: #fff;
     text-align: left;
-    height: 150px;
+    height: 80px;
     width: 100vw;
     padding: 0;
     margin: 0;
@@ -442,6 +442,8 @@ ul {
 .footer-ctas-mobile {
     position: relative;
     clear: both;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .footer-text-mobile {
@@ -449,7 +451,29 @@ ul {
     clear: both;
     padding: 0;
     margin: 0;
+    background-color: #0043A8;
+    color: #fff; 
 }
+
+.social-media-links-mobile {
+    display: inline-flex;
+    margin: 0;
+    height: 20px;
+    width: 100vw;
+    list-style: none;
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 0;
+}
+
+.social-media-links-mobile li {
+    display: inline-flex;
+    font-size: 22px;
+    margin: 0 auto;
+
+}
+
+
 
 /* About page */ 
 
