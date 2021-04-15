@@ -709,3 +709,21 @@ th {
     border-bottom-width: 2px;
     border-color: #000;
 }
+
+.timetable-button {
+    border: none;
+    width: 15em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
+    margin: 0 auto;
+    background-color:#FD4505;
+    margin-top: 34px;
+
+    color:#fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
