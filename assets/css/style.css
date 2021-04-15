@@ -663,3 +663,35 @@ input, label {
 
     border-radius: 50px;
 }
+
+/* TIMETABLE*/
+
+.table {
+    text-align: center;
+    vertical-align: top;
+}
+
+.table tr {
+}
+
+.table-cell-activity {
+    vertical-align: middle;
+}
+
+td.table-cell-activity-members-swim {
+    background-color: #0043A8;
+    border-radius: 10px;
+    color: #fff;
+}
+
+td.table-cell-activity-open-swim {
+    background-color: #DFF9FF;
+    border-radius: 10px;
+    color: #000;
+}
+
+td.table-cell-activity-training {
+    background-color: #19DDEC;
+    border-radius: 10px;
+    color: #000;
+}
