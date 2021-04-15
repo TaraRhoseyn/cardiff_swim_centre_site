@@ -677,18 +677,35 @@ input, label {
 
 td.table-cell-activity-members-swim {
     background-color: #0043A8;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #fff;
 }
 
 td.table-cell-activity-open-swim {
     background-color: #DFF9FF;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #000;
 }
 
 td.table-cell-activity-training {
     background-color: #19DDEC;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #000;
+}
+
+tbody, td, tfoot, thead, tr {
+    border-style: solid;
+    border-color: #fff;
+    border-bottom-width: 4px;
+    border-top-width: 4px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-radius: 50px;
+}
+
+
+th {
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-color: #000;
 }
