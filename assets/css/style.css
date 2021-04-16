@@ -448,7 +448,6 @@ ul {
     width: 100vw;
     padding: 0;
     margin: 0;
-
 }
 
 .footer-ctas-mobile {
@@ -456,6 +455,11 @@ ul {
     clear: both;
     text-align: center;
     padding-top: 20px;
+}
+
+.footer-ctas-mobile a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .footer-text-mobile {
@@ -483,6 +487,11 @@ ul {
     font-size: 22px;
     margin: 0 auto;
 
+}
+
+.footer-ctas a {
+    text-decoration: none;
+    color: #fff;
 }
 
 
