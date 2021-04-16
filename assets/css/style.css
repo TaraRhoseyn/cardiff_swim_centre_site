@@ -736,3 +736,88 @@ th {
     font-weight: 600;
     letter-spacing: 1px;
 }
+
+/* Pricing page */ 
+
+.members-card .card-header {
+    background-color: #19DDEC;
+    color: #000;
+    text-justify: center;
+
+}
+
+.non-card .card-header {
+    background-color: #E6E6E3;
+    color: #000;
+    text-justify: center;
+
+}
+
+.card-header:first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.members-card {
+    border: 2px solid #19DDEC;
+    padding: 0;
+    border-radius: 19px;
+}
+
+.non-card {
+    border: 2px solid #E6E6E3;
+    padding: 0;
+    border-radius: 19px;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.non-card, .members-card {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+p.price-money {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 25px;
+}
+
+p.price-explanation {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.non-card ul, .members-card ul {
+    padding: 7px;
+    text-align: left;
+}
+
+.non-card ul li, .members-card ul li {
+    padding-bottom: 10px;
+
+}
+
+.price-button-member {
+    background-color: #19DDEC;
+    border-style: none;
+    width: 8em;
+    height: 2em;
+    border-radius: 50px;
+
+    font-size: 20px;
+}
+
+.price-button-non {
+    background-color: #E6E6E3;
+    border-style: none;
+    width: 8em;
+    height: 2em;
+    border-radius: 50px;
+
+    font-size: 20px;
+}
