@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
-body {
-    margin: 0;
-}
+/*
+.row {
+    padding-right: 0px;
+    margin-right: 0px;
+}*/
 
+html {
+    overflow-x: hidden !important; 
+}
 
 /* Typography */
 
@@ -145,17 +150,17 @@ ul {
 
 /* Hero image */
 
+
+
 .hero-image-cta {
     background-image: url("../images/hero-image.png");
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     
-    text-align: center;
-    text-justify: center;
-    
+    text-align: center;    
 }
 
 .hero-image-cta h1 {
@@ -176,7 +181,6 @@ ul {
     width: 8em;
     padding: 5px;
     border-radius: 50px;
-    margin: 0 auto;
     background-color:#FD4505;
     margin-top: 34px;
 
@@ -863,4 +867,3 @@ p.price-explanation {
 .modal-body {
     margin-left: 10px;
 }
-
