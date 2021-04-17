@@ -857,4 +857,10 @@ p.price-explanation {
     }
 }
 
+.modal-header {
+    border: none;
+}
 
+.modal-body {
+    margin-left: 10px;
+}
