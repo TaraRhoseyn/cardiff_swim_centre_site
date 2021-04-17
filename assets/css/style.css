@@ -821,3 +821,31 @@ p.price-explanation {
 
     font-size: 20px;
 }
+
+.card-img-training {
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 425px) {
+    .non-price {
+        margin-top: 100px;
+    }
+} 
+
+@media screen and (min-width: 768px) {
+    .card {
+        height: 579px;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .card {
+        height: 455px;
+    }
+} 
+
+
+
+
+
+
