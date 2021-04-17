@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
-/*
-.row {
-    padding-right: 0px;
-    margin-right: 0px;
-}*/
+/* fix: html rule eliminated horizontal scrollbar bug on mobile view*/
 
 html {
     overflow-x: hidden !important; 
@@ -54,6 +50,13 @@ li {
     font-weight: 400;
 }
 
+
+/* Buttons */ 
+
+button a {
+    text-decoration: none;
+    color: #000;
+}
 
 /* Nav bar */
 
