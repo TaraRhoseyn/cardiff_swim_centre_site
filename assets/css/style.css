@@ -849,6 +849,12 @@ p.price-explanation {
     margin-bottom: 50px;
 }
 
+/* MODAL */ 
 
+@media screen and (min-width: 576px) {
+    .modal-dialog {
+        max-width: 1000px;
+    }
+}
 
 
