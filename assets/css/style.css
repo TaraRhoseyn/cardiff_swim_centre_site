@@ -186,7 +186,6 @@ ul {
 
 .pool-square, .benefits-square {
     background-color: #DFF9FF;
-    margin-top: 50px;
     border-radius: 30px;
     position: relative;
 
@@ -195,6 +194,7 @@ ul {
 .pool-square > ul > li {
     display: block;
     margin-bottom: 12px;
+    text-align: left;
 }
 
 .pool-square h2 {
@@ -222,6 +222,7 @@ ul {
 .benefits-square > ul > li {
     display: block;
     margin-bottom: 12px;
+    text-align: left;
 }
 
 /* fix: Fixed line spacing error in list items by removing bottom padding on tick icon */
@@ -264,7 +265,6 @@ ul {
 .features-container {
     margin-top: 120px;
     margin-bottom: 120px;
-    position: relative;
 }
 
 .pool-button {
@@ -274,10 +274,8 @@ ul {
     border-radius: 50px;
     border-style: solid;
 
-    position: absolute;
     margin: 0 auto;
-    left: 25%;
-    margin-top: -30px;
+
 
     width: 200px;
     height: 60px;
@@ -291,10 +289,8 @@ ul {
     border-style: none;
     border-radius: 50px;
 
-    position: absolute;
     margin: 0 auto;
-    margin-left: 40px;
-    margin-top: -30px;
+
 
     width: 200px;
     height: 60px;
@@ -443,7 +439,7 @@ ul {
     color: #fff;
     text-align: left;
     height: 80px;
-    width: 100vw;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
