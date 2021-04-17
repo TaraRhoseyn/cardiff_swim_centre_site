@@ -864,7 +864,3 @@ p.price-explanation {
     margin-left: 10px;
 }
 
-.container, .container .row, .container-fluid, .container-fluid .row {
-	margin: 0;
-	padding: 0;
-}
