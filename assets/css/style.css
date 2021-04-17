@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
+body {
+    margin: 0;
+}
+
+
 /* Typography */
 
 h1 {
@@ -857,4 +862,9 @@ p.price-explanation {
 
 .modal-body {
     margin-left: 10px;
+}
+
+.container, .container .row, .container-fluid, .container-fluid .row {
+	margin: 0;
+	padding: 0;
 }
