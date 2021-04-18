@@ -958,6 +958,16 @@ th {
     letter-spacing: 1px;
 }
 
+
+th.row-time {
+    padding-top: 1px;
+    vertical-align: top;
+    border-top-color: rgb(182, 182, 182);
+    border-top-width: 4px;
+    border-top-style: solid;
+    vertical-align: top
+}
+
 /* Pricing page */ 
 
 .members-card .card-header {
