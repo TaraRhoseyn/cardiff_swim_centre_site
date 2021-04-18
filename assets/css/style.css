@@ -51,7 +51,7 @@ li {
 }
 
 
-/* Buttons */ 
+/* BUTTONS */ 
 
 a button  {
     text-decoration: none;
@@ -59,6 +59,7 @@ a button  {
 }
 
 /* Grow effect. Credit: Hover.css library */
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -92,8 +93,7 @@ a button  {
 }
 
 
-
-/* Nav bar */
+/* NAVBAR */
 
 .navbar-bg {
     background-color: #DFF9FF;
@@ -195,7 +195,7 @@ ul {
     .underline-circle-inner {
         width: 6px;
         height: 6px;
-        background-color: black;
+        background-color: #000;
         border-radius: 50%;
         margin-top: 5px;
         clear: both;
@@ -215,7 +215,7 @@ ul {
     .underline-circle-inner {
         width: 6px;
         height: 6px;
-        background-color: black;
+        background-color: #000;
         border-radius: 50%;
         margin-top: 5px;
         clear: both;
@@ -234,7 +234,7 @@ ul {
     .underline-circle-inner-timetable {
         width: 6px;
         height: 6px;
-        background-color: black;
+        background-color: #000;
         border-radius: 50%;
         margin-top: 5px;
         clear: both;
@@ -254,7 +254,7 @@ ul {
     .underline-circle-inner-timetable {
         width: 6px;
         height: 6px;
-        background-color: black;
+        background-color: #000;
         border-radius: 50%;
         margin-top: 5px;
         clear: both;
@@ -273,11 +273,10 @@ ul {
     .underline-circle-inner-pricing {
         width: 6px;
         height: 6px;
-        background-color: black;
+        background-color: #000;
         border-radius: 50%;
         margin-top: 5px;
         clear: both;
-    
         margin: 0 auto;
         position: relative;
       }
@@ -293,11 +292,10 @@ ul {
     .underline-circle-inner-pricing {
         width: 6px;
         height: 6px;
-        background-color: black;
+        background-color: #000;
         border-radius: 50%;
         margin-top: 5px;
         clear: both;
-    
         margin: 0 auto;
         position: relative;
       }
@@ -313,7 +311,7 @@ ul {
     .underline-circle-inner-contact {
         width: 6px;
         height: 6px;
-        background-color: black;
+        background-color: #000;
         border-radius: 50%;
         margin-top: 5px;
         clear: both;
@@ -334,17 +332,17 @@ ul {
     .underline-circle-inner-contact {
         width: 6px;
         height: 6px;
-        background-color: black;
+        background-color: #000;
         border-radius: 50%;
         margin-top: 5px;
         clear: both;
-    
         margin: 0 auto;
         position: relative;
       }
 }
 
-  /* credit: Learnt how to change colour of toggle icon from this tutorial: https://stackoverflow.com/questions/65161206/how-to-change-bootstrap-navbar-toggler-icon*/
+/* credit: Learnt how to change colour of toggle icon from this tutorial: https://stackoverflow.com/questions/65161206/how-to-change-bootstrap-navbar-toggler-icon*/
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,67,168,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -353,9 +351,7 @@ ul {
     color: #000;
 }
 
-/* Hero image */
-
-
+/* HERO IMAGE */
 
 .hero-image-cta {
     background-image: url("../images/hero-image.png");
@@ -364,7 +360,6 @@ ul {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    
     text-align: center;    
 }
 
@@ -388,7 +383,6 @@ ul {
     border-radius: 50px;
     background-color:#FD4505;
     margin-top: 34px;
-
     color:#fff;
     font-size: 20px;
     font-weight: 600;
@@ -396,7 +390,7 @@ ul {
 
 }
 
-/* Features section */ 
+/* FEATURES SECTION */ 
 
 .pool-square, .benefits-square {
     background-color: #DFF9FF;
@@ -529,7 +523,7 @@ ul {
     left: 25%;
 }
 
-/* Ethos section */ 
+/* ETHOS SECTION */ 
 
 
 .ethos-container {
@@ -538,7 +532,7 @@ ul {
 
 }
 
-/* Learnt how to make CSS grids through this tutorial: https://www.w3schools.com/css/css_grid.asp*/
+/* Credit: Learnt how to make CSS grids through this tutorial: https://www.w3schools.com/css/css_grid.asp*/
 
 .grid-container {
     display: grid;
@@ -602,7 +596,7 @@ ul {
 }
 
 
-/* Location section */
+/* LOCATION SECTION */
 
 .location-container ul {
     list-style: none;
@@ -634,7 +628,8 @@ ul {
     padding: 0;
     margin: 0 auto;
 }
-/* Footer */
+
+/* FOOTER */
 
 .footer-container-desktop {
     background-color: #0043A8;
@@ -673,7 +668,6 @@ ul {
     font-size: 40px;
     padding: 20px;
 }
-
 
 .footer-ctas-mobile {
     color: #fff;
@@ -731,13 +725,9 @@ ul {
     color: #fff;
 }
 
+/* HEADING IMAGE - ABOUT PAGE */
 
-
-/* About page */ 
-
-/* Header image of about page */
-
-/* credit for image effect: tutorial from Code Institute */
+/* Credit for image effect: tutorial from Code Institute */
 
 .about-wrapper-image {
     background :url('../images/about-image-wrapper.png') center center / cover no-repeat fixed;
@@ -760,9 +750,7 @@ ul {
 }
 }
 
-
-
-/* Company values section */ 
+/* COMPANY VALUES SECTION */ 
 
 .about-value {
     margin-top: 100px;
@@ -793,15 +781,11 @@ ul {
     width: 90%;
 }
 
-/* Facilities section */ 
+/* FACILITIES SECTION */ 
 
 .about-facilities-intro {
     margin-bottom: 50px;
 }
-
-
-
-
 
 .card {
     padding-top: 20px;
@@ -843,8 +827,6 @@ ul {
     margin-top: 14px;
 }
 
-/* CONTACT PAGE */
-
 /* FORM */ 
 
 .form {
@@ -868,10 +850,10 @@ ul {
     height: 170px;
 }
 
-/* credit for input and label display property: https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs */
+/* Credit: Input and label display property: https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs */
 
 input, label {
-    display:block;
+    display: block;
 }
 
 #submit-button {
@@ -883,12 +865,12 @@ input, label {
     margin-top: 34px;
     margin-bottom: 34px;
     display: inline-block;
-
     color:#fff;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
 }
+
 
 #reset-button {
     border-width: 2px;
@@ -898,13 +880,10 @@ input, label {
     padding: 5px;
     border-radius: 50px;
     background-color: #fff;
-
     margin-left: 15px;
     margin-top: 34px;
     margin-bottom: 34px;
     display: inline-block;
-
-
     color: #000;
     font-size: 20px;
     font-weight: 600;
@@ -917,11 +896,8 @@ input, label {
     height: 500px;
     position: relative;
     margin-left: 120px;
-
     border-radius: 50px;
 }
-
-
 
 /* TIMETABLE*/
 
@@ -962,7 +938,6 @@ tbody, td, tfoot, thead, tr {
     border-radius: 50px;
 }
 
-
 th {
     border-style: solid;
     border-bottom-width: 2px;
@@ -980,13 +955,11 @@ th {
     margin: 0 auto;
     background-color:#FD4505;
     margin-top: 34px;
-
     color:#fff;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
 }
-
 
 th.row-time {
     padding-top: 1px;
@@ -1004,7 +977,7 @@ th.row-time {
     }
 }
 
-/* Pricing page */ 
+/* PRICING PAGE */ 
 
 .members-card .card-header {
     background-color: #19DDEC;
