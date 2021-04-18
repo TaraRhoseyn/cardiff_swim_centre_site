@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
-/* fix: html rule eliminated horizontal scrollbar bug on mobile view*/
+/* Fix: html rule eliminated horizontal scrollbar bug on mobile view*/
 
 html {
     overflow-x: hidden !important; 
 }
 
-/* Typography */
+/* TYPOGRAPHY */
 
 h1 {
     font-family: 'Nunito', sans-serif;
@@ -53,7 +53,7 @@ li {
 
 /* Buttons */ 
 
-button a {
+a button  {
     text-decoration: none;
     color: #000;
 }
