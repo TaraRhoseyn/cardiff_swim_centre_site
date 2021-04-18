@@ -190,6 +190,123 @@ ul {
       }
 }
 
+@media screen and (max-width: 1271px) {
+    .underline-circle-outer-timetable {
+        position: absolute;
+        width: 125px;
+    }
+    
+    .underline-circle-inner-timetable {
+        width: 6px;
+        height: 6px;
+        background-color: black;
+        border-radius: 50%;
+        margin-top: 5px;
+        clear: both;
+    
+        margin: 0 auto;
+        position: relative;
+      }
+}
+
+@media screen and (min-width: 1272px) {
+    .underline-circle-outer-timetable {
+        position: absolute;
+        width: 79.375px;
+        margin-left: 46px;
+    }
+    
+    .underline-circle-inner-timetable {
+        width: 6px;
+        height: 6px;
+        background-color: black;
+        border-radius: 50%;
+        margin-top: 5px;
+        clear: both;
+    
+        margin: 0 auto;
+        position: relative;
+      }
+}
+
+@media screen and (max-width: 1271px) {
+    .underline-circle-outer-pricing {
+        position: absolute;
+        width: 88.109px;
+    }
+    
+    .underline-circle-inner-pricing {
+        width: 6px;
+        height: 6px;
+        background-color: black;
+        border-radius: 50%;
+        margin-top: 5px;
+        clear: both;
+    
+        margin: 0 auto;
+        position: relative;
+      }
+}
+
+@media screen and (min-width: 1272px) {
+    .underline-circle-outer-pricing {
+        position: absolute;
+        width: 79.375px;
+        margin-left: 29px;
+    }
+
+    .underline-circle-inner-pricing {
+        width: 6px;
+        height: 6px;
+        background-color: black;
+        border-radius: 50%;
+        margin-top: 5px;
+        clear: both;
+    
+        margin: 0 auto;
+        position: relative;
+      }
+}
+
+@media screen and (max-width: 1271px) {
+    .underline-circle-outer-contact {
+        position: absolute;
+        width: 88.109px;
+        margin-left: 35px;
+    }
+    
+    .underline-circle-inner-contact {
+        width: 6px;
+        height: 6px;
+        background-color: black;
+        border-radius: 50%;
+        margin-top: 5px;
+        clear: both;
+    
+        margin: 0 auto;
+        position: relative;
+      }
+}
+
+@media screen and (min-width: 1272px) {
+    .underline-circle-outer-contact {
+        position: absolute;
+        width: 71.906px;
+        margin-left: 35px;
+    }
+
+    .underline-circle-inner-contact {
+        width: 6px;
+        height: 6px;
+        background-color: black;
+        border-radius: 50%;
+        margin-top: 5px;
+        clear: both;
+    
+        margin: 0 auto;
+        position: relative;
+      }
+}
 
   /* credit: Learnt how to change colour of toggle icon from this tutorial: https://stackoverflow.com/questions/65161206/how-to-change-bootstrap-navbar-toggler-icon*/
 .navbar-toggler-icon {
