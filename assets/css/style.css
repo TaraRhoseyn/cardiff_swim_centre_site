@@ -402,6 +402,7 @@ ul {
     background-color: #DFF9FF;
     border-radius: 30px;
     position: relative;
+    box-shadow: 1px 1px 20px 1px #d6d6d6;
 
 }
 
