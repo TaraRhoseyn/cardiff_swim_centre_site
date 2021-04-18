@@ -872,7 +872,7 @@ input, label {
     display: block;
 }
 
-#submit-button {
+.submit-button {
     border: none;
     width: 8em;
     padding: 5px;
@@ -888,7 +888,7 @@ input, label {
 }
 
 
-#reset-button {
+.reset-button {
     border-width: 2px;
     border-color: #FD4505;
     border-style: solid;
