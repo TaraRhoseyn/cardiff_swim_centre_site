@@ -58,7 +58,7 @@ button a {
     color: #000;
 }
 
-/* Grow button effect. Credit: Hover.css library */
+/* Grow effect. Credit: Hover.css library */
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -71,10 +71,27 @@ button a {
     transition-property: transform;
   }
 
-  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-  }
+}
+
+
+#error-button {
+    border: none;
+    width: 12em;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #FD4505;
+    margin-top: 34px;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
 
 /* Nav bar */
 
@@ -1067,4 +1084,26 @@ p.price-explanation {
 
 .modal-body {
     margin-left: 10px;
+}
+
+/* 404 PAGE */ 
+
+.error-text {
+    color: #fff;
+}
+
+#error-footer {
+    margin-top: 0;
+}
+
+.error-container {
+    background-image: url("../images/error-background.png");
+    height: 40vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center; 
+    margin: 0 auto;
+    padding-top: 30px;
 }
