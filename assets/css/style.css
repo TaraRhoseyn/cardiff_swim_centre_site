@@ -1030,12 +1030,14 @@ th.row-time {
     border: 2px solid #19DDEC;
     padding: 0;
     border-radius: 19px;
+    box-shadow: 1px 1px 20px 1px #d6d6d6;
 }
 
 .non-card {
     border: 2px solid #E6E6E3;
     padding: 0;
     border-radius: 19px;
+    box-shadow: 1px 1px 20px 1px #d6d6d6;
 }
 
 .card ul {
