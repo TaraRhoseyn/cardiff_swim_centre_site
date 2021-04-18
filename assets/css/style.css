@@ -839,12 +839,17 @@ input, label {
     letter-spacing: 1px;
 }
 
-#contact-image {
-    width: 90%;
-    height: 90%;
+
+#contact-image-inner {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin-left: 120px;
 
     border-radius: 50px;
 }
+
+
 
 /* TIMETABLE*/
 
