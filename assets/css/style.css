@@ -53,10 +53,21 @@ li {
 
 /* BUTTONS */ 
 
-a button  {
+a {
     text-decoration: none;
     color: #000;
 }
+
+a.black:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+a.white:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /* Grow effect. Credit: Hover.css library */
 
@@ -496,7 +507,6 @@ ul {
     border-width: 3px;
     border-radius: 50px;
     border-style: solid;
-
     margin: 0 auto;
 
 
@@ -505,6 +515,10 @@ ul {
 
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 52px;
+    color: #000;
 }
 
 .benefits-button {
@@ -521,6 +535,8 @@ ul {
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
     left: 25%;
+    line-height: 52px;
+    color: #000;
 }
 
 /* ETHOS SECTION */ 
@@ -573,7 +589,7 @@ ul {
     padding-bottom: 20px;
 }
 
-.ethos-container button {
+.ethos-container-button {
     border: none;
     width: 10em;
     padding: 5px;
