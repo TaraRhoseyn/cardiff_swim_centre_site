@@ -1009,15 +1009,13 @@ th.row-time {
 .members-card .card-header {
     background-color: #19DDEC;
     color: #000;
-    text-justify: center;
-
+    border-bottom: none;
 }
 
 .non-card .card-header {
     background-color: #E6E6E3;
     color: #000;
-    text-justify: center;
-
+    border-bottom: none;
 }
 
 .card-header:first-child {
