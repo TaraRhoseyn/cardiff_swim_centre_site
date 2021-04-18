@@ -997,6 +997,13 @@ th.row-time {
     vertical-align: top
 }
 
+@media screen and (max-width: 767px) {
+    .further-info p {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+}
+
 /* Pricing page */ 
 
 .members-card .card-header {
