@@ -272,7 +272,7 @@ ul {
     .underline-circle-outer-contact {
         position: absolute;
         width: 88.109px;
-        margin-left: 35px;
+        margin-left: 10px;
     }
     
     .underline-circle-inner-contact {
@@ -292,7 +292,8 @@ ul {
     .underline-circle-outer-contact {
         position: absolute;
         width: 71.906px;
-        margin-left: 35px;
+        margin-left: 40px;
+  
     }
 
     .underline-circle-inner-contact {
