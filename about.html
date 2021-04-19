@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About │ Cardiff Swim Centre</title>
-
     <!-- FAVICON-->
-
     <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
@@ -22,7 +20,6 @@
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicon/manifest.json">
-
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -32,41 +29,39 @@
 </head>
 <body>
     <header>
-
-        <!--NAVIGATION -->  
-
+        <!-- NAVBAR: Built with Bootstrap navbar component as a basis, and styled with custom CSS. -->  
         <nav class="navbar navbar-expand-lg navbar-bg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Cardiff Swim Centre Logo" width="120" height="120"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link nav-active" aria-current="page" href="about.html">About</a>
-                    <div class="underline-circle-outer"><div class="d-none d-md-block underline-circle-inner"></div></div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="timetable.html">Timetable</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pricing.html">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-                <button class="nav-join d-none d-lg-block hvr-grow" type="button" data-bs-toggle="modal" data-bs-target="#joinModal">Join</button>
-              </div>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Cardiff Swim Centre Logo" width="120" height="120"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-active" aria-current="page" href="about.html">About</a>
+                            <div class="underline-circle-outer">
+                                <div class="d-none d-md-block underline-circle-inner"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="timetable.html">Timetable</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="nav-join d-none d-lg-block hvr-grow" type="button" data-bs-toggle="modal" data-bs-target="#joinModal">Join</button>
+                </div>
             </div>
-        </nav>
-        
-        <!-- MODAL -->
-        
+        </nav>     
+        <!-- MODAL: Built with Bootstrap component. Designed to be a consistent CTA throughout the site and drive site users to join as members. -->     
         <div class="modal fade" id="joinModal" tabindex="-1" role="dialog" aria-labelledby="joinModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -105,9 +100,7 @@
             </div>
         </div>
     </header>
-
-    <!-- HEADER IMAGE -->
-
+    <!-- HEADER IMAGE: Decorative introduction to the page. -->
     <section>
         <div class="container-fluid about-wrapper-image">
             <div class="row">
@@ -119,9 +112,7 @@
             </div>
         </div>
     </section>
-
-    <!-- COMPANY VALUES -->
-
+    <!-- COMPANY VALUES: This section is a key feature for site users in that it communicated the company ethos, builds trustworthiness, and motivates users. -->
     <section>
         <div class="container about-value">
             <div class="row">
@@ -145,11 +136,9 @@
             </div>
         </div>
     </section>
-
-    <!-- FACILITIES -->
-
-    <!-- Fixed tablet view of bootstrap card components by replacing the col-md-4 class with col-md-6 and col-lg-4 classes, and putting them into one row over two -->
-    
+    <!-- FACILITIES: It is crucial for users to know that the facilities on offer are suitable to their needs as serious swimming enthusiasts. The information in this section is laid out clearly and in a list for ease of users scanning through to find information. 
+    I used the Bootstrap card component as a basis. -->
+    <!-- Fixed tablet view of bootstrap card components by replacing the col-md-4 class with col-md-6 and col-lg-4 classes, and putting them into one row over two -->  
     <section>
         <div class="container"> 
             <div class="row facilities-row">
@@ -236,9 +225,7 @@
             </div>
         </div>
     </section>
-
-    <!-- FOOTER -->
-
+    <!-- FOOTER: Two versions, one for smaller screens and one for medium and up devices. This is to ensure design is fully optimised based on screen size. -->
     <footer>
         <div class="container-fluid footer-container-desktop d-none d-md-block col-12">
             <div class="row">
