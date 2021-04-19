@@ -3,8 +3,6 @@
 
 <a href="https://tararhoseyn.github.io/CardiffSwimCentreMS1/index.html" target="_blank">View the deployed website</a>
 
-<hr>
-
 <h2> Overall Goals of the Website </h2>
 
 The business goals of Cardiff Swim Centre (hereinafter referred to as CSW):
@@ -17,7 +15,7 @@ The business goals of Cardiff Swim Centre (hereinafter referred to as CSW):
 The user goals:
 
 - Find a premier swimming pool where the priority is training.
-- Find a pool timetable that is intuitively built and easy to use. 
+- Find a pool timetable that is instuitively built and easy to use. 
 - Understand the differences between individual session pricing and membership pricing.
 - Find information about facilities at the pool.
 - Find out where the pool is located and parking information.
@@ -89,4 +87,4 @@ They're striking images that give an energetic feel to the website which stands 
 
 
 <h3>Wireframes</h3>
-- <a href="https://www.figma.com/file/ZRhJJ2FH2fxboh1Esi0kTp/MS1-Wireframe?node-id=0%3A1" target="_blank">Wireframes</a>
+- <a href="docs/wireframes/wireframes.pdf" target="_blank">Wireframes</a>
