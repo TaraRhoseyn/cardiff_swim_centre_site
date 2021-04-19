@@ -944,6 +944,12 @@ td.table-cell-activity-training {
     color: #000;
 }
 
+td.table-cell-activity-closed {
+    color: rgb(148, 148, 148);
+    letter-spacing: 5px;
+    padding-top: 1px;
+}
+
 tbody, td, tfoot, thead, tr {
     border-style: solid;
     border-color: #fff;
