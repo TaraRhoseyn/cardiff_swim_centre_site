@@ -682,7 +682,7 @@ ul {
     color: #fff;
 }
 
-.social-media-links i:hover, .social-media-links-mobile i:hover, .footer-ctas-mobile a:hover {
+.social-media-links i:hover, .social-media-links-mobile i:hover, .footer-ctas-mobile a:hover, .footer-ctas a:hover {
     color: #FD4505;
 }
 
