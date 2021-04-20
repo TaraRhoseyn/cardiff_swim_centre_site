@@ -1,9 +1,9 @@
-<h1>Cardiff Swim Centre (MS1)</h1>
+# Cardiff Swim Centre (MS1)
 <img src="assets/images/logo.png" alt="Cardiff Swim Centre Logo" width="200" height="200">
 
 <a href="https://tararhoseyn.github.io/CardiffSwimCentreMS1/index.html" target="_blank">View the deployed website</a>
 
-<h2> Overall Goals of the Website </h2>
+## Overall Goals of the Website 
 
 The business goals of Cardiff Swim Centre (hereinafter referred to as CSW):
 
@@ -20,7 +20,7 @@ The user goals:
 - Find information about facilities at the pool.
 - Find out where the pool is located and parking information.
 
-<h2>User Experience</h2>
+## User Experience
 
 I have designed this website with mobile in mind by creating bite-sized easily digestible pieces of content that can be seperated easily. 
 
@@ -28,7 +28,7 @@ I have structured each page according to the information architecture organising
 
 The user experience is structured around two main goals, (a) to allow the users to discover CSW's location and brand philosophy, and (b) to users convert into members. Call to actions to these goals are found throughout the website and are given priority through the colour scheme, e.g. more important call to actions are more eye-catching. For example, the navigation bar displays a "Join" button in the top of all pages.
 
-<h3>Target Audience</h3>
+### Target Audience
 
 - Fitness enthusiasts
 - Regular swimmers
@@ -37,7 +37,7 @@ The user experience is structured around two main goals, (a) to allow the users 
 - Teens who participate in swimming clubs and galas
 - Parents of above teens
 
-<h3>User Stories</h3>
+### User Stories
 
 I have divided my user stories into two categories: first-time users and regular visitors, with the understanding that the goal of communicating the brand philosophy and location information will be less of a priority to returning visitors.
 
@@ -62,13 +62,13 @@ My overall approach to the design came from a desire to create a brand that was 
 
 The visual language of the website takes it's inspiration from water, much of the components have a fluidity, softness and curviture. 
 
-<h3>Colour Scheme</h3>
+### Colour Scheme
 
 I have created a contrasting colour scheme of blue and orange with shades of blue being the primary colour. I chose a complementary colour scheme (blue/orange) to be able to draw particular attention to key call to actions. 
 
 I picked blue first, as this gives the user memories and associations of water. It's also a colour often associated with safety and security in marketing/branding.
 
-<h3>Typography</h3>
+### Typography
 
 My heading font is Nunito from Google Fonts. I chose this font because:
 - The soft and curvy form that goes well with the rest of the visual language
@@ -79,12 +79,14 @@ My body font is Montserrat. I chose this font because of:
 - It compliments Nunito well as it's also a largely circular and soft font, but it also contrasts enough with Nunito in terms of font weight to offer a pleasing contrast.
 
 
-<h3>Imagery</h3>
+### Imagery
 
 All images on the website are of professional quality and fully licensed. They usually depict swimmers in action to convey a dynamic, lively, and aspiration visual language. Please see 'Credits' section for more information on licenses.
 
 They're striking images that give an energetic feel to the website which stands out particularly well against the white space and modern aesthetic of the overall design. 
 
 
-<h3>Wireframes</h3>
-- <a href="docs/wireframes/wireframes.pdf" target="_blank">Wireframes</a>
+
+### Wireframes
+- Wireframes: [PDF] (https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes.pdf) 
+[Figma] (https://www.figma.com/file/ZRhJJ2FH2fxboh1Esi0kTp/MS1-Wireframe?node-id=0%3A1) Please open the Figma file if you're struggling to load the PDF
