@@ -678,11 +678,11 @@ ul {
     color: #fff;
 }
 
-.social-media-links i {
+.social-media-links i, .social-media-links-mobile i {
     color: #fff;
 }
 
-.social-media-links i:hover {
+.social-media-links i:hover, .social-media-links-mobile i:hover, .footer-ctas-mobile a:hover {
     color: #FD4505;
 }
 
