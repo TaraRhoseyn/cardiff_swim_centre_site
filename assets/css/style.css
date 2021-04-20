@@ -97,7 +97,7 @@ a.white:hover {
     background-color: #FD4505;
     margin-top: 34px;
 
-    color: #fff;
+    color: #000;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -394,7 +394,7 @@ ul {
     border-radius: 50px;
     background-color:#FD4505;
     margin-top: 34px;
-    color:#fff;
+    color:#000;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -598,7 +598,7 @@ ul {
     background-color:#FD4505;
     margin-top: 34px;
 
-    color:#fff;
+    color:#000;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -889,7 +889,7 @@ input, label {
     margin-top: 34px;
     margin-bottom: 34px;
     display: inline-block;
-    color:#fff;
+    color: #000;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -903,7 +903,7 @@ input, label {
     width: 5em;
     padding: 5px;
     border-radius: 50px;
-    background-color: #fff;
+    background-color: #000;
     margin-left: 15px;
     margin-top: 34px;
     margin-bottom: 34px;
@@ -985,7 +985,7 @@ th {
     margin: 0 auto;
     background-color:#FD4505;
     margin-top: 34px;
-    color:#fff;
+    color:#000;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
