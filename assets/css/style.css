@@ -949,7 +949,7 @@ td.table-cell-activity-training {
 }
 
 td.table-cell-activity-closed {
-    color: rgb(148, 148, 148);
+    color: #6F6D6D;
     letter-spacing: 5px;
     padding-top: 1px;
 }
