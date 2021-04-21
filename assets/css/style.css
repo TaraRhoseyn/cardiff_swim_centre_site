@@ -1142,7 +1142,7 @@ p.price-explanation {
 }
 
 .error-container {
-    background-image: url("../images/error-background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("../images/error-background.png");
     height: 40vh;
     width: 100%;
     background-repeat: no-repeat;
