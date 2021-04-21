@@ -364,6 +364,9 @@ ul {
 
 /* HERO IMAGE */
 
+/* Credit for bg-image linear-gradient code: https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/
+Added linear-gradient to pass WAVE accessability tool contrast checker */
+
 .hero-image-cta {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
             url("../images/hero-image.png");
