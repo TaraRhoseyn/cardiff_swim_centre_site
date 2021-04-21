@@ -365,22 +365,22 @@ ul {
 /* HERO IMAGE */
 
 .hero-image-cta {
-    background-image: url("../images/hero-image.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url("../images/hero-image.png");
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    text-align: center;    
 }
 
-.hero-image-cta h1 {
+.hero-image-text h1 {
     color: white;
     margin-top: 100px;
     margin-bottom: 4px;
 }
 
-.hero-image-cta h3 {
+.hero-image-text h3 {
     color: white;
     margin-top: 30px;
 
