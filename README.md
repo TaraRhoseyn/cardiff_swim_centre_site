@@ -95,7 +95,7 @@ They're striking images that give an energetic feel to the website which stands 
 
 ### HTML Validation
 
-The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with 0 errors. All pages but timetable.html pass with 0 errors and 0 warnings. Click on the page name to see the result: [Home](docs/validation/html-validation/html-validation-index.png) [About](docs/validation/html-validation/html-validation-about.png) [Timetable](docs/validation/html-validation/html-validation-timetable.png) [Pricing](docs/validation/html-validation/html-validation-pricing.png) [Contact](docs/validation/html-validation/html-validation-contact.png) [404](docs/validation/html-validation/html-validation-404.png)
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with 0 errors. All pages but timetable.html pass with 0 errors and 0 warnings. Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-index.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-about.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-timetable.png) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-pricing.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-contact.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-404.PNG)
 
 ### Accessability
 
