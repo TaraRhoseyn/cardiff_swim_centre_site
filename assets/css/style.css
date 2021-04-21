@@ -364,7 +364,7 @@ ul {
 Added linear-gradient to pass WAVE accessability tool contrast checker */
 
 .hero-image-cta {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
             url("../images/hero-image.png");
     height: 100vh;
     width: 100vw;
