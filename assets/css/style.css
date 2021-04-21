@@ -63,10 +63,6 @@ a.black:hover {
     color: #000;
 }
 
-a.white:hover {
-    text-decoration: none;
-    color: #fff;
-}
 
 
 /* Grow effect. Credit: Hover.css library */
@@ -756,18 +752,16 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
 /* Credit for image effect: tutorial from Code Institute */
 
 .about-wrapper-image {
-    background :url('../images/about-image-wrapper.png') center center / cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/about-image-wrapper.png') center center / cover no-repeat fixed;
     width: 100%; 
-    height: 60vh;
-
-    color: #fff;
-    text-align: center;
-    text-justify: center;
-    
+    height: 60vh;    
 }
 
 .about-wrapper-image h1 {
     margin-top: 10%;
+    color: #fff;
+    text-align: center;
+    text-justify: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -843,7 +837,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     margin: 0 auto;
     background-color:#FD4505;
 
-    color: #fff;
+    color: #000;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
