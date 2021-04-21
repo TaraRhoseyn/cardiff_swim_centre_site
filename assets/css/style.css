@@ -677,7 +677,7 @@ ul {
     color: #fff;
 }
 
-.social-media-links i, .social-media-links-mobile i {
+.social-media-links i, .social-media-links-mobile i, .social-media-links li span, .social-media-links-mobile li span{
     color: #fff;
 }
 
