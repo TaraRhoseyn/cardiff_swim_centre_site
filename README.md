@@ -91,8 +91,13 @@ They're striking images that give an energetic feel to the website which stands 
 - Wireframes: [PDF](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes.pdf) 
 [Figma](https://www.figma.com/file/ZRhJJ2FH2fxboh1Esi0kTp/MS1-Wireframe?node-id=0%3A1) Please open the Figma file if you're struggling to load the PDF
 
+## Testing 
+
+### HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with 0 errors. All pages but timetable.html pass with 0 errors and 0 warnings. Click on the page name to see the result: [Home](docs/validation/html-validation/html-validation-index.png) [About](docs/validation/html-validation/html-validation-about.png) [Timetable](docs/validation/html-validation/html-validation-timetable.png) [Pricing](docs/validation/html-validation/html-validation-pricing.png) [Contact](docs/validation/html-validation/html-validation-contact.png) [404](docs/validation/html-validation/html-validation-404.png)
 
 ### Accessability
 
-The [WAVE WebAIM web accessability evaluation tool](https://wave.webaim.org/report#/https://tararhoseyn.github.io/CardiffSwimCentreMS1/) was used to ensure the website met high accessability standards. Each page passed with 0 errors.
+The [WAVE WebAIM web accessability evaluation tool](https://wave.webaim.org/report#/https://tararhoseyn.github.io/CardiffSwimCentreMS1/) was used to ensure the website met high accessability standards. All pages pass with 0 errors.
 Click on the page name to see the result: [Home](docs/validation/accessability/WAVE-homepage.png) [About](docs/validation/accessability/WAVE-aboutpage.png) [Timetable](docs/validation/accessability/WAVE-timetablepage.png) [Pricing](docs/validation/accessability/WAVE-pricingpage.png) [Contact](docs/validation/accessability/WAVE-contactpage.png) [404](docs/validation/accessability/WAVE-404page.png) 
