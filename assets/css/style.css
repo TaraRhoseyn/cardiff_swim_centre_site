@@ -880,7 +880,7 @@ input, label {
     display: block;
 }
 
-.submit-button {
+#submit-button {
     border: none;
     width: 8em;
     padding: 5px;
@@ -896,14 +896,14 @@ input, label {
 }
 
 
-.reset-button {
+#reset-button {
     border-width: 2px;
     border-color: #FD4505;
     border-style: solid;
     width: 5em;
     padding: 5px;
     border-radius: 50px;
-    background-color: #000;
+    background-color: #fff;
     margin-left: 15px;
     margin-top: 34px;
     margin-bottom: 34px;
