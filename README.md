@@ -90,3 +90,9 @@ They're striking images that give an energetic feel to the website which stands 
 ### Wireframes
 - Wireframes: [PDF](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes.pdf) 
 [Figma](https://www.figma.com/file/ZRhJJ2FH2fxboh1Esi0kTp/MS1-Wireframe?node-id=0%3A1) Please open the Figma file if you're struggling to load the PDF
+
+
+### Accessability
+
+The [WAVE WebAIM web accessability evaluation tool](https://wave.webaim.org/report#/https://tararhoseyn.github.io/CardiffSwimCentreMS1/) was used to ensure the website met high accessability standards. Each page passed with 0 errors.
+Click on the page name to see the result: [Home](docs/validation/accessability/WAVE-homepage.png) [About](docs/validation/accessability/WAVE-aboutpage.png) [Timetable](docs/validation/accessability/WAVE-timetablepage.png) [Pricing](docs/validation/accessability/WAVE-pricingpage.png) [Contact](docs/validation/accessability/WAVE-contactpage.png) [404](docs/validation/accessability/WAVE-404page.png) 
