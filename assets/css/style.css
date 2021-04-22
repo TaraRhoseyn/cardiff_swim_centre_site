@@ -44,6 +44,15 @@ p {
     font-weight: 400;
 }
 
+/* fix: Fixed line spacing error in list items by removing bottom padding on tick icon */
+
+.fa-check {
+    color: #66C793;
+    font-size: 20px;
+    padding-right: 6px;
+    
+}
+
 li {
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
@@ -78,6 +87,77 @@ a.black:hover {
     letter-spacing: 1px;
 }
 
+@media screen and (max-width: 1024px) {
+    .pool-button, .benefits-button {
+        margin-top: 0;
+        width: 8em;
+        height: 2em;
+        font: 20px;
+        line-height: 37px;
+    }
+
+}
+
+.pool-button {
+    background-color: #FFF;
+    border-color: #19DDEC;
+    border-width: 3px;
+    border-radius: 50px;
+    border-style: solid;
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 52px;
+    color: #000;
+}
+
+.benefits-button {
+    background-color: #19DDEC;
+    border-style: none;
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    left: 25%;
+    line-height: 52px;
+    color: #000;
+}
+
+.ethos-container-button {
+    border: none;
+    width: 10em;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 0 auto;
+    background-color:#FD4505;
+    margin-top: 34px;
+    color:#000;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card .btn {
+    border: none;
+    width: 16em;
+    border-radius: 50px;
+    margin: 0 auto;
+    background-color:#FD4505;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#card-five-btn {
+    margin-top: 14px;
+}
 
 /* Grow effect. Credit: Hover.css library */
 
@@ -390,7 +470,7 @@ ul {
     color: #000;
 }
 
-/* HERO IMAGE */
+/* HOME PAGE: HERO IMAGE */
 
 /* Credit for bg-image linear-gradient code: https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/
 Added linear-gradient to pass WAVE accessability tool contrast checker */
@@ -414,7 +494,6 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
 .hero-image-text h3 {
     color: white;
     margin-top: 30px;
-
 }
 
 .hero-image-cta button {
@@ -428,10 +507,9 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
-
 }
 
-/* FEATURES SECTION */ 
+/* HOME PAGE: FEATURES SECTION */ 
 
 @media screen and (min-width: 768px) {
     .features-section {
@@ -459,6 +537,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     border-radius: 25px;
 }
 
+/* media query to ensure the Home page cards have suitable margins in tablet and desktop view */
 
 @media screen and (min-width: 768px) {
     #card-pool, #card-benefits {
@@ -487,166 +566,19 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     border: none;
 }
 
-.pool-card ul li, .home-members-card ul li {
-    font-size: 20px;
-}
-
-@media screen and (max-width: 1024px) {
-    .pool-button, .benefits-button {
-        margin-top: 0;
-        width: 8em;
-        height: 2em;
-        font: 20px;
-        line-height: 37px;
-    }
-
-}
-
-.pool-square, .benefits-square {
-    background-color: #DFF9FF;
-    border-radius: 30px;
-    position: relative;
-    
-
-}
-
-.pool-square > ul > li {
-    display: block;
-    margin-bottom: 12px;
-    text-align: left;
-}
-
-.pool-square h2 {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.benefits-square h2 {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.pool-square ul {
-    list-style: none;
-    padding-bottom: 60px;
-}
-
-.benefits-square ul {
-    list-style: none;
-    padding-bottom: 60px;
-}
-
-.benefits-square > ul > li {
-    display: block;
-    margin-bottom: 12px;
-    text-align: left;
-}
-
-/* fix: Fixed line spacing error in list items by removing bottom padding on tick icon */
-
-.fa-check {
-    color: #66C793;
-    font-size: 20px;
-    padding-right: 6px;
-    
-}
-
-@media screen and (min-width: 768px) {
-    .pool-square {
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto; 
-        
-    }
-
-    .benefits-square {
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .pool-square {
-        width: 90%;
-        left: 16px;
-        margin-bottom: 45px;
-        margin-right: 45px;
-    }
-
-    .benefits-square {
-        width: 90%;
-        left: 16px;
-        margin-bottom: 0;
-        margin-right: 45px;
-    }
-
-    .pool-square h2 {
-        font-size: 22px;
-        font-weight: 700;
-    }
-
-    .benefits-square h2 {
-        font-size: 22px;
-        font-weight: 700;
-    }
-}
-
 .features-container {
     margin-top: 120px;
     margin-bottom: 120px;
 }
 
-.pool-button {
-    background-color: #FFF;
-    border-color: #19DDEC;
-    border-width: 3px;
-    border-radius: 50px;
-    border-style: solid;
-    margin: 0 auto;
-
-
-    width: 200px;
-    height: 60px;
-
-    font-family: 'Nunito', sans-serif;
-    font-size: 22px;
-    text-decoration: none;
-    vertical-align: middle;
-    line-height: 52px;
-    color: #000;
-}
-
-
-.benefits-button {
-    background-color: #19DDEC;
-    border-style: none;
-    border-radius: 50px;
-
-    margin: 0 auto;
-
-
-    width: 200px;
-    height: 60px;
-
-    font-family: 'Nunito', sans-serif;
-    font-size: 22px;
-    left: 25%;
-    line-height: 52px;
-    color: #000;
-}
-
-/* ETHOS SECTION */ 
-
+/* HOMEPAGE: ETHOS SECTION */ 
 
 .ethos-container {
     padding-top: 160px;
     margin-bottom: 80px;
-
 }
+
+/* The purpose of the below grid is to make the tiled image effect seen in the ethos section of the Home page */
 
 /* Credit: Learnt how to make CSS grids through this tutorial: https://www.w3schools.com/css/css_grid.asp*/
 
@@ -655,11 +587,9 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     grid-column-gap: 50px;
     grid-template-columns: auto auto auto;
     justify-content: center;
-
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    
-  }
+}
 
 .item-1 {
     margin-top: -200px;
@@ -689,21 +619,6 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     padding-bottom: 20px;
 }
 
-.ethos-container-button {
-    border: none;
-    width: 10em;
-    padding: 5px;
-    border-radius: 50px;
-    margin: 0 auto;
-    background-color:#FD4505;
-    margin-top: 34px;
-
-    color:#000;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
 @media screen and (max-width: 767px) {
     .ethos-container {
         margin-top: 10px;
@@ -711,9 +626,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     }
 }
 
-
-
-/* LOCATION SECTION */
+/* HOMEPAGE: LOCATION SECTION */
 
 .location-container ul {
     list-style: none;
@@ -754,7 +667,6 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     margin-top: 90px;
     text-align: left;
     height: 150px;
-
 }
 
 .footer-container-desktop ul {
@@ -850,7 +762,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     color: #fff;
 }
 
-/* HEADING IMAGE - ABOUT PAGE */
+/* ABOUT PAGE: HEADING IMAGE */
 
 /* Credit for image effect: tutorial from Code Institute */
 
@@ -864,16 +776,15 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     margin-top: 10%;
     color: #fff;
     text-align: center;
-    text-justify: center;
 }
 
 @media screen and (max-width: 768px) {
     .about-wrapper-image h1 {
-    margin-top: 30%;
-}
+        margin-top: 30%;
+    }
 }
 
-/* COMPANY VALUES SECTION */ 
+/* ABOUT PAGE: COMPANY VALUES SECTION */ 
 
 .about-value {
     margin-top: 100px;
@@ -904,7 +815,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     width: 90%;
 }
 
-/* FACILITIES SECTION */ 
+/* ABOUT PAGE: FACILITIES SECTION */ 
 
 .about-facilities-intro {
     margin-bottom: 50px;
@@ -952,7 +863,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
 }
 
 
-/* FORM */ 
+/* FORM FOR MODAL AND CONTACT PAGE */ 
 
 .form {
     display:block;
@@ -962,7 +873,6 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     background-color: #F0F0F0;
     border: none;
     border-radius: 15px;
-
     width: 80%;
     height: 50px;
 }
@@ -1024,7 +934,7 @@ input, label {
     border-radius: 50px;
 }
 
-/* TIMETABLE*/
+/* TIMETABLE PAGE: TABLE */
 
 .table {
     text-align: center;
@@ -1125,7 +1035,6 @@ th.row-time {
 .card-header:first-child {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
 }
 
 .members-card {
@@ -1170,7 +1079,6 @@ p.price-explanation {
 
 .non-card ul li, .members-card ul li {
     padding-bottom: 10px;
-
 }
 
 .price-button-member {
@@ -1179,7 +1087,6 @@ p.price-explanation {
     width: 8em;
     height: 2em;
     border-radius: 50px;
-
     font-size: 20px;
 }
 
