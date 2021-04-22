@@ -115,32 +115,38 @@
         </div>
     </section>
     <!-- FEATURES: This section is designed to communicate the facilities to a site user quickly and also stress the value of getting a membership -->
-    <section>
-        <div class="container features-container text-center">
-            <div class="row">
-                <div class="col-12 col-sm-6 features feature-one">
-                    <div class="pool-square">
-                        <h2>World class pool</h2>
-                        <ul> 
-                            <li><i class="fas fa-check"></i> Olympic-sized 50m pool</li>
-                            <li><i class="fas fa-check"></i> 16m depth at deepest point</li>
-                            <li><i class="fas fa-check"></i> 3m, 10m and springboard diving boards</li>
-                            <li><i class="fas fa-check"></i> Training equipment available</li>
-                        </ul>
-                        <!-- Fix: Changed <button>s to <a> with the role attribute of "button" for HTML validation. Credit: CI Slack user Jim_Lynx -->
-                        <a href="about.html#facilities-section" class="pool-button mb-5 hvr-grow black" role="button">Facilities</a>
-                    </div>    
+    <section class="features-section">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mt-5">
+                    <div class="card non-card home-features text-center" id="card-pool">
+                        <div class="card-header text-center" id="card-header-pool">
+                            <h2>World class pool</h2>
+                        </div>
+                        <div class="card-body home-features pool-card">
+                            <ul class="mt-3">
+                                <li><i class="fas fa-check"></i> Olympic-sized 50m pool</li>
+                                <li><i class="fas fa-check"></i> 16m depth at deepest point</li>
+                                <li><i class="fas fa-check"></i> 3m, 10m and springboard diving boards</li>
+                                <li><i class="fas fa-check"></i> Training equipment available</li>
+                            </ul>
+                            <a href="about.html#facilities-section" class="pool-button mt-5 hvr-grow black" role="button">Facilities</a>                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-sm-6 features feature-two">
-                    <div class="benefits-square">
-                        <h2>Member benefits</h2>
-                        <ul> 
-                            <li><i class="fas fa-check"></i> Free access to equipment</li>
-                            <li><i class="fas fa-check"></i> 12-week training programme</li>
-                            <li><i class="fas fa-check"></i> Lane booking</li>
-                            <li><i class="fas fa-check"></i> Free access to training classes</li>
-                        </ul>
-                        <a href="pricing.html" class="benefits-button mb-5 hvr-grow black" role="button">See Prices</a>
+                <div class="col mt-5">
+                    <div class="card members-card home-features text-center" id="card-benefits">
+                        <div class="card-header home-features text-center" id="card-header-benefits">
+                            <h2>Member benefits</h2>
+                        </div>
+                        <div class="card-body home-features home-members-card">
+                            <ul class="mt-3">
+                                <li><i class="fas fa-check"></i> Free access to equipment</li>
+                                <li><i class="fas fa-check"></i> 12-week training programme</li>
+                                <li><i class="fas fa-check"></i> Lane booking</li>
+                                <li><i class="fas fa-check"></i> Free access to training classes</li>
+                            </ul>                         
+                            <a href="pricing.html" class="benefits-button mt-5 hvr-grow black" role="button">See Prices</a>
+                        </div>
                     </div>
                 </div>
             </div>

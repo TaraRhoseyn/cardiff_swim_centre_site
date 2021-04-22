@@ -435,11 +435,65 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
 
 /* FEATURES SECTION */ 
 
+
+@media screen and (min-width: 768px) {
+    .features-section {
+    margin-top: 80px;
+    } 
+}
+
+.features-card {
+    box-shadow: 1px 1px 20px 1px #d6d6d6;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .col #card-pool, .col #card-benefits {
+        margin-left: 79.500px;
+        margin-right: 79.500px;
+        } 
+}
+
+
+.home-features #card-header-pool {
+    background-color: #DFF9FF;
+    padding: 20px;
+}
+
+.home-features #card-header-benefits {
+    background-color: #DFF9FF;
+    padding: 20px;
+}
+
+.home-features, .home-features .card-header{
+    background-color: #DFF9FF;
+    border-style: none;
+}
+
+.col #card-benefits {
+    border: none;
+}
+
+.pool-card ul li, .home-members-card ul li {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .pool-button, .benefits-button {
+        margin-top: 0;
+        width: 8em;
+        height: 2em;
+        font: 20px;
+        line-height: 37px;
+    }
+
+}
+
 .pool-square, .benefits-square {
     background-color: #DFF9FF;
     border-radius: 30px;
     position: relative;
-    box-shadow: 1px 1px 20px 1px #d6d6d6;
+    
 
 }
 
@@ -553,6 +607,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     color: #000;
 }
 
+
 .benefits-button {
     background-color: #19DDEC;
     border-style: none;
@@ -642,6 +697,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
         padding-top: 0;
     }
 }
+
 
 
 /* LOCATION SECTION */
@@ -848,6 +904,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     margin: 0 auto;
 }
 
+
 @media screen and (min-width: 1024px) {
     .card {
         margin-bottom: 100px;
@@ -880,6 +937,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
 #card-five-btn {
     margin-top: 14px;
 }
+
 
 /* FORM */ 
 
