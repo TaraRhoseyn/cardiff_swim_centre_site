@@ -193,6 +193,40 @@ ul {
 
 /* credit: Below underline-circle-* code is based on this div lesson: http://www.corelangs.com/css/box/divindiv.html */
 
+@media screen and (max-width: 990px) {
+    .underline-circle-outer {
+        display: none;
+    }
+    
+    .underline-circle-inner {
+        display: none;
+      }
+
+    .underline-circle-outer-timetable {
+        display: none;
+    }
+    
+    .underline-circle-inner-timetable {
+        display: none;
+    }
+
+    .underline-circle-outer-pricing {
+        display: none;
+    }
+    
+    .underline-circle-inner-pricing {
+        display: none;
+    }
+
+    .underline-circle-outer-contact {
+        display: none;
+    }
+    
+    .underline-circle-inner-contact {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1271px) {
     .underline-circle-outer {
         position: absolute;
