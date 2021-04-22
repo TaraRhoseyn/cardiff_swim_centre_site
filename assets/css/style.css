@@ -435,7 +435,6 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
 
 /* FEATURES SECTION */ 
 
-
 @media screen and (min-width: 768px) {
     .features-section {
     margin-top: 80px;
@@ -447,13 +446,29 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     padding: 0;
 }
 
-@media screen and (min-width: 768px) {
-    .col #card-pool, .col #card-benefits {
-        margin-left: 79.500px;
-        margin-right: 79.500px;
-        } 
+#card-pool, #card-benefits {
+    border-radius: 25px;
 }
 
+#card-pool ul li, #card-benefits ul li {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#card-pool .card-body, #card-benefits .card-body {
+    border-radius: 25px;
+}
+
+
+@media screen and (min-width: 768px) {
+    #card-pool, #card-benefits {
+        margin-left: 79.500px;
+        margin-right: 79.500px;
+        height: 400px;
+        } 
+}
 
 .home-features #card-header-pool {
     background-color: #DFF9FF;
