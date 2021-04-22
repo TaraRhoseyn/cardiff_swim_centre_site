@@ -1,6 +1,8 @@
 # Cardiff Swim Centre (MS1)
 <img src="assets/images/logo.png" alt="Cardiff Swim Centre Logo" width="200" height="200">
 
+![Responsible mockup of the website](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/mockup/responsive-mockup.PNG)
+
 [View the deployed website](https://tararhoseyn.github.io/CardiffSwimCentreMS1/index.html)
 
 ## Overall Goals of the Website 
