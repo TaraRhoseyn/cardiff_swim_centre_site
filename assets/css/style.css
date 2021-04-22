@@ -52,6 +52,7 @@ li {
 
 
 /* BUTTONS */ 
+/* fix: Addded <a> color style to ensure all buttons were inline with accessability standards */
 
 a {
     text-decoration: none;
@@ -63,6 +64,19 @@ a.black:hover {
     color: #000;
 }
 
+#error-button {
+    border: none;
+    width: 12em;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #FD4505;
+    margin-top: 34px;
+
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 
 
 /* Grow effect. Credit: Hover.css library */
@@ -82,21 +96,6 @@ a.black:hover {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-}
-
-
-#error-button {
-    border: none;
-    width: 12em;
-    padding: 5px;
-    border-radius: 50px;
-    background-color: #FD4505;
-    margin-top: 34px;
-
-    color: #000;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 1px;
 }
 
 
@@ -299,7 +298,6 @@ ul {
         border-radius: 50%;
         margin-top: 5px;
         clear: both;
-    
         margin: 0 auto;
         position: relative;
       }
@@ -1250,7 +1248,7 @@ p.price-explanation {
 
 .error-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("../images/error-background.png");
-    height: 40vh;
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
