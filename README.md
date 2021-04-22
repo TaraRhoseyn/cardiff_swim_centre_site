@@ -114,6 +114,8 @@ They're striking images that give an energetic feel to the website which stands 
 - Bootstrap was primarily used for layout, stylying and responsiveness purposes. 
 10. ImageResizer.com
 - Used to reduce the size of image files for optimising the website's performance and speed.
+11. Visual Studio Code (VS Code)
+- IDE used. 
 
 ## Testing 
 
