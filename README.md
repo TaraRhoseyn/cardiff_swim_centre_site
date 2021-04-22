@@ -88,8 +88,7 @@ They're striking images that give an energetic feel to the website which stands 
 
 
 ### Wireframes
-- Wireframes: [PDF](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes.pdf) 
-[Figma](https://www.figma.com/file/ZRhJJ2FH2fxboh1Esi0kTp/MS1-Wireframe?node-id=0%3A1) Please open the Figma file if you're struggling to load the PDF
+- Wireframes: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-home.pdf) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-about.pdf) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-timetable.pdf) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-pricing.pdf) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-contact.pdf) [Modal](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-modal.pdf) [Credit](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-credit.pdf)
 
 ## Testing 
 
