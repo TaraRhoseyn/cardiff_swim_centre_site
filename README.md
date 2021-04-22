@@ -78,17 +78,42 @@ My body font is Montserrat. I chose this font because of:
 - Wide availability on web browsers. 
 - It compliments Nunito well as it's also a largely circular and soft font, but it also contrasts enough with Nunito in terms of font weight to offer a pleasing contrast.
 
-
 ### Imagery
 
 All images on the website are of professional quality and fully licensed. They usually depict swimmers in action to convey a dynamic, lively, and aspiration visual language. Please see 'Credits' section for more information on licenses.
 
 They're striking images that give an energetic feel to the website which stands out particularly well against the white space and modern aesthetic of the overall design. 
 
-
-
 ### Wireframes
+
 - Wireframes: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-home.pdf) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-about.pdf) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-timetable.pdf) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-pricing.pdf) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-contact.pdf) [Modal](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-modal.pdf) [Credit](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-credit.pdf)
+
+## Technologies Used
+
+### Languages 
+
+- HTML5
+- CSS3
+
+### Frameworks, libraries and other tools 
+
+1. Git
+- Git was used for version control within VSCode to push the code to GitHub.
+2. GitHub
+- GitHub was used as a remote repository to store project code.
+3. Adobe Illustrator
+- Adobe Illustrator was used to create the Cardiff Swim Centre Logo.
+4. Adobe Photoshop
+- Adobe Photoshop was used to edit several images found throughout the site.
+6. Figma
+-  Used for wireframing and UI prototyping.
+7. Font Awesome
+- Icons used throughout the site.
+8. Google Fonts
+9. Bootstrap v5.0
+- Bootstrap was primarily used for layout, stylying and responsiveness purposes. 
+10. ImageResizer.com
+- Used to reduce the size of image files for optimising the website's performance and speed.
 
 ## Testing 
 
