@@ -767,7 +767,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
 /* Credit for image effect: tutorial from Code Institute */
 
 .about-wrapper-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/about-image-wrapper.png') center center / cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/about-image-wrapper.webp') center center / cover no-repeat fixed;
     width: 100%; 
     height: 60vh;    
 }
@@ -1154,7 +1154,7 @@ p.price-explanation {
 }
 
 .error-container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("../images/error-background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("../images/error-background.webp");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
