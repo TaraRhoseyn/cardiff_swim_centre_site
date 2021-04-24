@@ -1147,6 +1147,7 @@ p.price-explanation {
 
 .error-text {
     color: #fff;
+    margin-top: 100px;
 }
 
 #error-footer {
@@ -1155,7 +1156,7 @@ p.price-explanation {
 
 .error-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("../images/error-background.webp");
-    height: 100%;
+    height: 80vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
