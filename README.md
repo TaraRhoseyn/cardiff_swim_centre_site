@@ -1,5 +1,5 @@
 # Cardiff Swim Centre (MS1)
-<img src="assets/images/logo.png" alt="Cardiff Swim Centre Logo" width="200" height="200">
+<img src="assets/images/logo.webp" alt="Cardiff Swim Centre Logo" width="200" height="200">
 
 ![Responsible mockup of the website](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/mockup/responsive-mockup.PNG)
 
@@ -123,15 +123,20 @@ They're striking images that give an energetic feel to the website which stands 
 
 ### HTML Validation
 
-The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the website. All pages pass with 0 errors. All pages but timetable.html pass with 0 errors and 0 warnings. Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-index.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-about.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-timetable.png) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-pricing.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-contact.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-404.PNG)
+The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the website. All pages pass with 0 errors. All pages but timetable.html pass with 0 errors and 0 warnings. 
+
+Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-index.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-about.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-timetable.png) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-pricing.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-contact.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-404.PNG)
 
 ### CSS Validation
 
-The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. The CSS passed with [0 errors](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/css-validation/css-validation.PNG). 
+The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. 
+
+The CSS passed with [0 errors](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/css-validation/css-validation.PNG). 
 
 ### Accessability
 
 The [WAVE WebAIM web accessability evaluation tool](https://wave.webaim.org/report#/https://tararhoseyn.github.io/CardiffSwimCentreMS1/) was used to ensure the website met high accessability standards. All pages pass with 0 errors.
+
 Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-homepage.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-aboutpage.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-timetablepage.PNG) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-pricingpage.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-contactpage.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-404page.PNG) 
 
 ### Performance 
