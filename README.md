@@ -143,7 +143,7 @@ They're striking images that give an energetic feel to the website which stands 
 4. [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html)
 - Adobe Photoshop was used to edit several images found throughout the site. In particular the 'ethos' images of the Our Ethos section of the Home page.
 6. [Figma](https://www.figma.com/)
--  Figma was used for wireframing all pages.
+-  Figma was used for wireframing all pages and creating the pool timetable PDF.
 7. [Font Awesome](https://fontawesome.com/)
 - Icons from Font Awesome were used throughout the site.
 8. [Google Fonts](https://fonts.google.com/)
@@ -160,8 +160,12 @@ They're striking images that give an energetic feel to the website which stands 
 - Image Resizer was used to reduce the size of image files before converting them from PNG to WEBP.
 14. [FreeConvert.com](https://www.freeconvert.com/png-to-webp)
 - Free Convert was used to convert all PNG image files to WEBP files to improve the site's speed and performance.
-15. [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
+15. [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
 - VSCode was the IDE used to write the code for this project.
+16. [Google Maps](https://www.google.co.uk/maps)
+- Google Maps was used to create the embedded map with location pin showing where CSC is. 
+17. [QR Code Generator](https://www.the-qrcode-generator.com/)
+- This generator was used to create the QR code found in the pool timetable PDF so that swimmers always have a quick way to direct themselves back to the website.
 
 ## Testing 
 
@@ -188,3 +192,49 @@ Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. Each page passed with at least 97% score on performance, 97% on accessability, 93% on best practices and 100% on SEO. 
 
 Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-home.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-about.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-timetable.PNG) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-pricing.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-contact.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-404.PNG)
+
+## Credits
+
+*All credit also included in the page files.*
+
+### Code
+
+- **Mário Gusman** from Code Institute Slack group - for code about accessibility measures in the footer. 
+- **Code institute** - code for creating the moving effect in the header image on the ABout page. The Hero Image section of index.html was also inspired by the Whiskey project during the course of the Code Institute teachings.
+- **Hover.css** - for [Grow effect CSS code](https://ianlunn.github.io/Hover/)
+- **Core Langs** - for outer and inner [div lesson](http://www.corelangs.com/css/box/divindiv.html) to properly center content. Used heavily for creating the underline ‘circle’ effect you see in the navigation bar.  
+- **Stack Overflow** - for [changing the colour](https://stackoverflow.com/questions/65161206/how-to-change-bootstrap-navbar-toggler-icon*/) of the Bootstrap toggle icon. And for input and label [display properties](https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs)
+- **Geeks for Geeks** - for the [linear-background code](https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/) that allowed my pages to pass WAVE accessibility tool. 
+- **W3C Schools** - for [CSS grid](https://www.w3schools.com/css/css_grid.asp*/) code. 
+
+
+### Media
+
+Unsplash was used for all imagery throughout their site. Their license is fully copyright-free. Here are the photographers whose work appeared on the website in order of appearance: 
+
+- [Gentrit Sylejmani](https://unsplash.com/photos/JjUyjE-oEbM)
+- [Brian Matangelo](https://unsplash.com/photos/-BUPaAMSOdE)
+- [Malik Skydsgaard](https://unsplash.com/photos/IIesm3xPO7M)
+- [Jesper Stechmann](https://unsplash.com/photos/nb2l7FmbSdA)
+- [Marcelo Uva](https://unsplash.com/photos/n2v3lTWy74Y)
+- [Dylan Nolte](https://unsplash.com/photos/9zFmHvFAuIg)
+- [Thomas Park](https://unsplash.com/photos/QGdRrty4054)
+- [Rana Sawalha](https://unsplash.com/photos/IhuHLIxS_Tk)
+- [Lhu Shi Hui](https://unsplash.com/photos/YWkRJjctjbA)
+- [Li Yang](https://unsplash.com/photos/_vPCiuXL2HE)
+- [Daan Evers](https://unsplash.com/photos/tKN1WXrzQ3s)
+- [Akshat Jain](https://unsplash.com/photos/zEO9BGCNbhE)
+- [Brian Matangelo](https://unsplash.com/photos/ZU23GWLoCWc)
+- [Nelka](https://unsplash.com/photos/sGIp9xdj7kA)
+- [Richard R. Schünemann](https://unsplash.com/photos/ZmZEkO-pb7M)
+- [Marcus Ng](https://unsplash.com/photos/ZbbhkQ0M2AM)
+- [Serena Repice Lentini](https://unsplash.com/photos/TVOAbbLL050)
+- [Jonah Brown](https://unsplash.com/photos/lHg0YJy_NHg)
+- [Isai Ramos](https://unsplash.com/photos/_3SFFsWqCVg)
+
+
+### Acknowledgements: 
+
+- To my fiancee Yasmine Haggar for her testing support and feedback on this project. 
+- To my mentor Mo Shami for his feedback, advice and support.
+- To the Code Institute slack community of students and alumni for their helpful advice, resources, guidance and support. 
