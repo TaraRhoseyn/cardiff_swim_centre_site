@@ -115,11 +115,13 @@ They're striking images that give an energetic feel to the website which stands 
 - Nunito from Google Fonts was used as the main heading font throughout the site.
 9. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - Bootstrap was primarily used for layout, stylying and responsiveness purposes. 
-10. [ImageResizer.com](https://imageresizer.com/image-compressor)
+10. [Unsplash](https://unsplash.com/) 
+- All images used in the website apart from the logo were from the online copyright-free repository, Unsplash. See Credits for more information.
+11. [ImageResizer.com](https://imageresizer.com/image-compressor)
 - Image Resizer was used to reduce the size of image files before converting them from PNG to WEBP.
-11. [FreeConvert.com](https://www.freeconvert.com/png-to-webp)
+12. [FreeConvert.com](https://www.freeconvert.com/png-to-webp)
 - Free Convert was used to convert all PNG image files to WEBP files to improve the site's speed and performance.
-12. [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
+13. [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
 - VSCode was the IDE used to write the code for this project.
 
 ## Testing 
