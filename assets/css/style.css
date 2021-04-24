@@ -272,6 +272,8 @@ ul {
 
 /* credit: Below underline-circle-* code is based on this div lesson: http://www.corelangs.com/css/box/divindiv.html */
 
+/* The below media queries ensure the underline 'circle' can only be seen when on the full-length navigation bar, and not when the navbar is collapsed into the hamburger menu */
+
 @media screen and (max-width: 990px) {
     .underline-circle-outer {
         display: none;
