@@ -67,6 +67,30 @@ I have divided my user stories into two categories: first-time users and regular
 14. As a site owner, I want prospective customers to be able to contact us with queries or feedback easily. 
 15. As a site owner, I want customers to find information about classes in language that is plain and accessible to ensure appropriate use of training.
 
+## Scope 
+
+The scope of the project in it’s first release is defined by the following features: 
+
+- Navigation bar to let users navigate the website simply, with bolded text and a circle underline to show users which page they are currently on. 
+- A footer across all pages with links to social media and other places on the website such as pricing and location. 
+- A pool timetable with classes, lane swimming times and closed times. 
+- Modal where you can join up as a member in the navigation bar of every page, making joining quick and easy. 
+- Pricing page which communicates the benefits of membership clearly and explains costs simply. 
+- Contact form where queries can be sent. The form is functional and will not submit unless all fields are filled out. 
+- Explanation of training classes, their cost and their benefits to swimmers. 
+- An error page (404.html) that directs site users back to the home page (index.html) in the event of a broken URL. 
+- An About page which contains company ethos and marketing copy to entice users.
+- An About page which contains clear descriptions of all facilities on offer. 
+- Embedded map with a location pin to show users how to get to the pool, accompanied by parking information and opening times.
+- Favicon icon to help users identify the site.
+
+
+Features to be built in future releases: 
+
+- Multi-page form to purchase membership and the ability to sign up to monthly direct debit payments. 
+- Booking system for training classes. 
+- The ability to toggle which days you want to view in the pool timetable on mobile view. 
+- A collapsible carousel on the About page on mobile view to switch view between cards.
 
 
 ## Design
@@ -125,14 +149,18 @@ They're striking images that give an energetic feel to the website which stands 
 8. [Google Fonts](https://fonts.google.com/)
 - Nunito from Google Fonts was used as the main heading font throughout the site.
 9. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-- Bootstrap was primarily used for layout, stylying and responsiveness purposes. 
-10. [Unsplash](https://unsplash.com/) 
+- Bootstrap was primarily used for layout, stylying and responsiveness purposes.
+10. [Hover.css](https://ianlunn.github.io/Hover/)
+- The 2D 'grow' effect from the Hover.css library was used on all buttons throughout the website and on images within the Ethos section of the homepage.
+11. [Unsplash](https://unsplash.com/) 
 - All images used in the website apart from the logo were from the online copyright-free repository, Unsplash. See Credits for more information.
-11. [ImageResizer.com](https://imageresizer.com/image-compressor)
+12. [Am I Responsive](http://ami.responsivedesign.is/)
+- Am I Responsive was used to create the multi-device mock-up you see at the start of this README.md file.
+13. [ImageResizer.com](https://imageresizer.com/image-compressor)
 - Image Resizer was used to reduce the size of image files before converting them from PNG to WEBP.
-12. [FreeConvert.com](https://www.freeconvert.com/png-to-webp)
+14. [FreeConvert.com](https://www.freeconvert.com/png-to-webp)
 - Free Convert was used to convert all PNG image files to WEBP files to improve the site's speed and performance.
-13. [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
+15. [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
 - VSCode was the IDE used to write the code for this project.
 
 ## Testing 
