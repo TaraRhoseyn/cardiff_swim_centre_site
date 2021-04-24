@@ -43,7 +43,8 @@ The user experience is structured around two main goals, (a) to allow the users 
 
 I have divided my user stories into two categories: first-time users and regular visitors, with the understanding that the goal of communicating the brand philosophy and location information will be less of a priority to returning visitors.
 
-First-time users
+#### First-time users
+
 1. As a first time user, I want to know the specifications of the pools so I know it's suited to my needs as a fast or long-distance swimmer.
 2. As a first time user, I want to see location information so that I can know where to go to use the pool and plan my journey.
 3. As a first time user, I want to see information about classes so that I know I can improve my fitness.
@@ -52,11 +53,21 @@ First-time users
 6. As a first time user, I want to see a timetable to ensure it works with my own schedules.
 7. As a first time user, I want to know the prices of using the pool and membership.
 
-Regular visitors
-1. As a regular visitor, I want to see a timetable so that I can know which times I can use the pool. 
-2. As a regular visitor, I want to see information about classes 
-3. As a regular visitor, I want to understand the pricing model to understand if becoming a member is cost effective. 
-4. As a regular visitor, I want to be able to see what the pool offers to see if there are any updates.
+#### Regular visitors
+
+8. As a regular visitor, I want to see a timetable so that I can know which times I can use the pool. 
+9. As a regular visitor, I want to see information about classes 
+10. As a regular visitor, I want to understand the pricing model to understand if becoming a member is cost effective. 
+11. As a regular visitor, I want to be able to see what the pool offers to see if there are any updates.
+
+#### Site owner 
+
+12. As a site owner, I want customers to be able to join as members in an easy and intuitive way directly on the website.
+13. As a site owner, I want customers to be able to access our pool timetable quickly and easily to ensure they can access services at their desired time. 
+14. As a site owner, I want prospective customers to be able to contact us with queries or feedback easily. 
+15. As a site owner, I want customers to find information about classes in language that is plain and accessible to ensure appropriate use of training.
+
+
 
 ## Design
 
