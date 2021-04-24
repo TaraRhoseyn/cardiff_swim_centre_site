@@ -58,7 +58,7 @@ Regular visitors
 3. As a regular visitor, I want to understand the pricing model to understand if becoming a member is cost effective. 
 4. As a regular visitor, I want to be able to see what the pool offers to see if there are any updates.
 
-<h2>Design</h2>
+## Design
 
 My overall approach to the design came from a desire to create a brand that was modern, clean, aesthetically pleasing. From a UX perspective, I also wanted a site that was easily navigable and did not cause cognitive overload. 
 
@@ -94,30 +94,33 @@ They're striking images that give an energetic feel to the website which stands 
 
 ### Languages 
 
-- HTML5
-- CSS3
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks, libraries and other tools 
 
-1. Git
+1. [Git](https://git-scm.com/)
 - Git was used for version control within VSCode to push the code to GitHub.
-2. GitHub
+2. [GitHub](https://github.com/)
 - GitHub was used as a remote repository to store project code.
-3. Adobe Illustrator
+3. [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
 - Adobe Illustrator was used to create the Cardiff Swim Centre Logo.
-4. Adobe Photoshop
-- Adobe Photoshop was used to edit several images found throughout the site.
-6. Figma
--  Used for wireframing and UI prototyping.
-7. Font Awesome
-- Icons used throughout the site.
-8. Google Fonts
-9. Bootstrap v5.0
+4. [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html)
+- Adobe Photoshop was used to edit several images found throughout the site. In particular the 'ethos' images of the Our Ethos section of the Home page.
+6. [Figma](https://www.figma.com/)
+-  Figma was used for wireframing all pages.
+7. [Font Awesome](https://fontawesome.com/)
+- Icons from Font Awesome were used throughout the site.
+8. [Google Fonts](https://fonts.google.com/)
+- Nunito from Google Fonts was used as the main heading font throughout the site.
+9. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - Bootstrap was primarily used for layout, stylying and responsiveness purposes. 
-10. ImageResizer.com
-- Used to reduce the size of image files for optimising the website's performance and speed.
-11. Visual Studio Code (VS Code)
-- IDE used. 
+10. [ImageResizer.com](https://imageresizer.com/image-compressor)
+- Image Resizer was used to reduce the size of image files before converting them from PNG to WEBP.
+11. [FreeConvert.com](https://www.freeconvert.com/png-to-webp)
+- Free Convert was used to convert all PNG image files to WEBP files to improve the site's speed and performance.
+12. [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
+- VSCode was the IDE used to write the code for this project.
 
 ## Testing 
 
@@ -143,4 +146,4 @@ Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/
 
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. Each page passed with at least 97% score on performance, 97% on accessability, 93% on best practices and 100% on SEO. 
 
-Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-home.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-about.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-timetable.PNG) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-pricing.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-contact.PNG) 
+Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-home.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-about.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-timetable.PNG) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-pricing.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-contact.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-404.PNG)
