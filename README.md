@@ -193,6 +193,38 @@ Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/
 
 Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-home.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-about.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-timetable.PNG) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-pricing.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-contact.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-404.PNG)
 
+### Performing tests on various devices 
+
+#### Devices tested: 
+
+- Huawei PRA-LX1
+- iPhone SE 
+- LENOVO IdeaCentre 3 Desktop PC with a 34" monitor
+- DELL Inspiron 15 5593
+
+#### Tests performed: 
+
+1. Page links in the navigation bar are able to direct users to the correct page, and no broken links or present on the static navigation bar or it's collapsed version. 
+2. Page, anchor and outbound links are able to direct users to the correct place with no broken links on desktop or mobile version. 
+3. The 'join' modal opens up correctly and is able to close by clicking away or clicking the close icon. 
+4. The form on the 'join' modal will not submit until all fields are filled out. An alert will be present when a user attempts this.
+5. The timetable is scrollable on mobile and tablet view. 
+6. The timetable.pdf opens appropriately and can be downloaded.
+7. The row of cards in the about page collapsable into a single-view column appropriately on mobile and tablet view. 
+8. If an incorrect URL is attempted the user is redirected to a 404 page which will direct them back to the home page. 
+9. The google map has a location pin to let users know where the pool is. 
+10. The form on the contact page will not submit until all fields are filled out. An alert will be present when a user attempts this.
+11. The cards on the pricing page direct users to the timetable page and the join modal correctly. 
+12. All buttons display a 'grow' effect when hovered in desktop view or clicked in mobile view. 
+13. All pages are responsive in mobile view and no textual content is cut off from view. 
+14. Unnecessary content does not display on mobile view. 
+15. The marketing copy is clear and easily readable.
+16. The logo directs users back to the home page on all pages.
+
+#### Results: 
+
+All devices were able to pass all tests. There were some minor stylistic inconsistencies across the devices, such as headings on the iPhone SE not being vertically centered as they should. 
+
 ## Credits
 
 *All credit also included in the page files.*
