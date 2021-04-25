@@ -225,6 +225,32 @@ Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/
 
 All devices were able to pass all tests. There were some minor stylistic inconsistencies across the devices, such as headings on the iPhone SE not being vertically centered as they should. 
 
+### Bugs found and resolved during development
+
+- **Bug**: On mobile view all pages had a blank bar of white space to the right of the screen that would trigger a horizontal scrollbar. 
+- **Fix**: I discovered this is a common bug with Bootstrap rows. To fix this I set a CSS rule for the root element that the 'overflow-x' be 'hidden'.
+- **Bug**: The about page's bottom row cards would overlap with the footer at a certain screen width.
+- **Fix**: Lowered the min-width of the media query to include this screen width and increased the bottom-margin of the cards within this query.
+- **Bug**: List items being pushed onto the next line was causing inconsistencies across card heights.
+- **Fix**: Removed bottom padding on the font awesome tick icon.
+- **Bug**: Buttons were not passing WAVE accessability standards due to colour contrast failures. 
+- **Fix**: Set the colour property of all anchor elements to black. 
+- **Bug**: The about page's row of three cards would overlap into each other on tablet view. 
+- **Fix**: Eeplaced the col-md-4 class with col-md-6 and col-lg-4 classes, and put them into one row over two.
+- **Bug**: Page loading speed was slow. I could not get the performance metric in Google lighthouse above 74% for all pages. 
+- **Fix**: Optimised the PNG images by making the file sizes smaller, then converted all PNGs to WEBP. 
+- **Bug**: Modal button not opening the modal. 
+- **Fix**: Added 'bs' classes to 'data-bs-toggle' and 'data-bs-target'. Realised mistake by re-reading Bootstrap [documentation](https://getbootstrap.com/docs/5.0/components/modal/) more closely. 
+- **Bug**: Footer list items which contained social media icons were classed as empty list items by WAVE accessability tool. 
+- **Fix**: Added aria-hidden attribute with the value of 'true' to the iframe element within the list item, and added a class of 'sr-only' to the span containing the text version of the icon. 
+- **Bug**: Submit and reset buttons on modal were classes as empty by WAVE accessability tool. 
+- **Fix**: Added values of 'submit' and 'reset' to prospective buttons. 
+- **Bug**: All headings produced contrast errors by WAVE accessability tool. 
+- **Fix**: Added linear-background to background-image of heading divs.
+- **Bug**: Form on contact page was not submitting properly. 
+- **Fix**: The IDs were incorrectly typed (duplicate IDs to modal form and incorrect on corresponding labels). I realised the mistake due to HTML validation errors and changed accordingly. 
+
+
 ## Credits
 
 *All credit also included in the page files.*
@@ -235,7 +261,7 @@ All devices were able to pass all tests. There were some minor stylistic inconsi
 - **Code institute** - code for creating the moving effect in the header image on the ABout page. The Hero Image section of index.html was also inspired by the Whiskey project during the course of the Code Institute teachings.
 - **Hover.css** - for [Grow effect CSS code](https://ianlunn.github.io/Hover/)
 - **Core Langs** - for outer and inner [div lesson](http://www.corelangs.com/css/box/divindiv.html) to properly center content. Used heavily for creating the underline ‘circle’ effect you see in the navigation bar.  
-- **Stack Overflow** - for [changing the colour](https://stackoverflow.com/questions/65161206/how-to-change-bootstrap-navbar-toggler-icon*/) of the Bootstrap toggle icon. And for input and label [display properties](https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs)
+- **Stack Overflow** - for [changing the colour](https://stackoverflow.com/questions/65161206/how-to-change-bootstrap-navbar-toggler-icon*/) of the Bootstrap toggle icon. For input and label [display properties](https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs). For HTML rule eliminiating [horizontal scrollbar bug](https://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers)
 - **Geeks for Geeks** - for the [linear-background code](https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/) that allowed my pages to pass WAVE accessibility tool. 
 - **W3C Schools** - for [CSS grid](https://www.w3schools.com/css/css_grid.asp*/) code. 
 
