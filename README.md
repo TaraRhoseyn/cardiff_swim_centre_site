@@ -5,7 +5,33 @@
 
 [View the deployed website](https://tararhoseyn.github.io/CardiffSwimCentreMS1/index.html)
 
-## Overall Goals of the Website 
+## Table of Content
+
+1. [Project Goals](#project-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User stories](#user-stories)
+    3. [Scope](#scope)
+    4. [Design](#design)
+    5. [Wireframes](#wireframes)
+3. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks,-libraries-and-other-tools)
+4. [Testing](#testing)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessability](#accessability)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Bugs](#Bugs-found-and-resolved-during-development)
+    7. [Testing user stories](#testing-user-stories)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+    1. [Code](#code)
+    2. [Media](#media)
+    3. [Acknowledgements](#acknowledgements)
+
+## Project Goals 
 
 The business goals of Cardiff Swim Centre (hereinafter referred to as CSW):
 
@@ -121,7 +147,7 @@ All images on the website are of professional quality and fully licensed. They u
 
 They're striking images that give an energetic feel to the website which stands out particularly well against the white space and modern aesthetic of the overall design. 
 
-### Wireframes
+## Wireframes
 
 - Wireframes: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-home.pdf) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-about.pdf) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-timetable.pdf) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-pricing.pdf) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-contact.pdf) [Modal](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-modal.pdf) [Credit](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-credit.pdf)
 
@@ -250,6 +276,9 @@ All devices were able to pass all tests. There were some minor stylistic inconsi
 - **Bug**: Form on contact page was not submitting properly. 
 - **Fix**: The IDs were incorrectly typed (duplicate IDs to modal form and incorrect on corresponding labels). I realised the mistake due to HTML validation errors and changed accordingly. 
 
+### Testing user stories
+
+## Deployment
 
 ## Credits
 
