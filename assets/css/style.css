@@ -830,12 +830,14 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     margin: 0 auto;
 }
 
+/* Fix: Fixed bug where the bottom of the cards of about.html would overlap the footer by lowering the min-width that the bottom media query would be called */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 991px) {
     .card {
         margin-bottom: 100px;
     }
 }
+
 .card ul li, .card p {
     font-size: 16px;
 }
