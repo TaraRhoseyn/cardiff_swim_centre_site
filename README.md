@@ -278,6 +278,132 @@ All devices were able to pass all tests. There were some minor stylistic inconsi
 
 ### Testing user stories
 
+*1. As a first time user, I want to know the specifications of the pools so I know it's suited to my needs as a fast or long-distance swimmer.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find pool specifications on home page below the hero image       |      Scroll down       | To find pool specifications under hero image on home page | Works as expected |
+| Find pool specifications in 'What we offer' section of the About page  |   Click on 'About' in the navigation bar OR click 'Get to know us' on the Home page. Then scroll down page to find section.    | To find pool specifications in the 'What we offer' section of the About page | Works as expected |
+
+Screenshot to show user story
+
+*2. As a first time user, I want to see location information so that I can know where to go to use the pool and plan my journey.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find location pin on embedded google map  |      Scroll down       | To find embedded google map with location pin of company and additional information on parking | Works as expected |
+
+Screenshot to show user story
+
+*3. As a first time user, I want to see information about classes so that I know I can improve my fitness.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Information on Pricing page about training classes |   Find Pricing page from the navigation bar OR footer    | To find information about three training classes that improve fitness | Works as expected |
+
+Screenshot to show user story
+
+*4. As a first time user, I want to understand their brand values align with my own as a fitness enthusiast.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Information about brand history and company values on the about page | Click on 'About' in the navigation bar OR click 'Get to know us' on the Home page. | To find information about when the company was set up and why, what are their ideals | Works as expected |
+| Brief information about the motivation behind the company and its ethos on Home page | Scroll down | To find brief information about the company's ethos | Works as expected |
+
+Screenshot to show user story
+
+*5. As a first time user, I want to locate their social media accounts so I can receive regular updates from them and see how well known they are in the world of swimming.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Social media links in the footer of all pages | Scroll to the end of any page | To find working social media links that direct users to an external social media link | Works as expected |
+
+Screenshot to show user story
+
+*6. As a first time user, I want to see a timetable to ensure it works with my own schedules.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Responsive timetable which shows all times of classes and lane swimming sessions | Click on 'Timetable' in the navigation bar OR click on a 'See timetable' button on the Pricing page | To find a responsive timetable that is colour co-ordinated and easy to understand | Works as expected |
+| A PDF downloadable timetable that I can then print off | Click on 'Timetable as PDF' on the Timetable page | To see a PDF version of the web timetable to print off/download | Works as expected |
+
+Screenshots to support user story
+
+*7. As a first time user, I want to know the prices of using the pool and membership.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Pricing cards on the Pricing page that show the cost and benefits of paying per session or purchasing a membership | Find pricing page from the navigation bar OR footer OR buttons on About page | To find how much using the pool and having a membership costs in a clear and transparent manner | Works as expected |
+
+Screenshot to support user story
+
+*8. As a regular visitor, I want to see a timetable so that I can know which times I can use the pool.* 
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Responsive timetable which shows all times of classes and lane swimming sessions | Click on 'Timetable' in the navigation bar OR click on a 'See timetable' button on the About and Pricing pages | To find a responsive timetable that is colour co-ordinated and easy to understand | Works as expected |
+| A PDF downloadable timetable that I can then print off | Click on 'Timetable as PDF' on the Timetable page | To see a PDF version of the web timetable to print off/download | Works as expected |
+
+Screenshot to show user story
+
+*9. As a regular visitor, I want to see information about classes*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Information on Pricing page about training classes |   Find Pricing page from the navigation bar OR footer    | To find information about three training classes that improve fitness | Works as expected |
+
+Screenshot to show user story
+
+*10. As a regular visitor, I want to understand the pricing model to understand if becoming a member is cost effective.* 
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Pricing cards on the Pricing Page that show the cost and benefits of paying per session or purchasing a membership | Find pricing page from the navigation bar OR footer OR buttons on About page | To find how much using the pool and having a membership costs in a clear and transparent manner | Works as expected |
+
+Screenshot to support user story
+
+*11. As a regular visitor, I want to be able to see what the pool offers to see if there are any updates.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find an overview of the pool and member offers on the Home page    |      Scroll down       | To find pool specifications and member benefits as cards beneath the hero image | Works as expected |
+| Find 'What we offer' section of the About page  |   Click on 'About' in the navigation bar OR click 'Get to know us' on the Home page. Then scroll down page to find section.    | To find information about what the pool offers | Works as expected |
+
+Screenshot to support user story
+
+*12. As a site owner, I want customers to be able to join as members in an easy and intuitive way directly on the website.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Modal with a form to join as a member available on every page | Click on the 'join' button in the navigation bar from any page OR click 'Join now' button on the Home page | To be able to join as a member once all fields have been completed | Works as expected |
+
+Screenshot to support user story
+
+*13. As a site owner, I want customers to be able to access our pool timetable quickly and easily to ensure they can access services at their desired time.* 
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Responsive timetable which shows all times of classes and lane swimming sessions | Click on 'Timetable' in the navigation bar OR click on a 'See timetable' button on the About and Pricing pages | To find a responsive timetable that is colour co-ordinated and easy to understand | Works as expected |
+| A PDF downloadable timetable that I can then print off | Click on 'Timetable as PDF' on the Timetable page | To see a PDF version of the web timetable to print off/download | Works as expected |
+
+Screenshot to support user story
+
+*14. As a site owner, I want prospective customers to be able to contact us with queries or feedback easily.* 
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Contage page with a form for feedback and queries | Click on 'Contact' in the navigation bar or footer | To be able to sumit a query or feedback once all fields are inputted | Works as expected |
+
+Screenshot to support user story
+
+*15. As a site owner, I want customers to find information about classes in language that is plain and accessible to ensure appropriate use of training.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Information on Pricing page about training classes |   Find Pricing page from the navigation bar OR footer    | To find information about three training classes that improve fitness | Works as expected |
+
+Screenshot to support user story
+
 ## Deployment
 
 ## Credits
