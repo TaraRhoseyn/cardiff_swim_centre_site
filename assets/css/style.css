@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
-/* Fix: html rule eliminated horizontal scrollbar bug on mobile view*/
+/* Fix: html rule eliminated horizontal scrollbar bug on mobile view. Credit: https://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers */
 
 html {
     overflow-x: hidden !important; 
