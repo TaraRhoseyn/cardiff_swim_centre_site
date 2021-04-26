@@ -23,11 +23,11 @@
     3. [Accessability](#accessability)
     4. [Performance](#performance)
     5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser testing](#browser-testing)
-    7. [Bugs](#Bugs-found-and-resolved-during-development)
-    8. [Testing user stories](#testing-user-stories)
-5. [Deployment](#deployment)
-6. [Credits](#credits)
+    6. [Browser compatability](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
+5. [Bugs](#Bugs-found-and-resolved-during-development)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
     1. [Code](#code)
     2. [Media](#media)
     3. [Acknowledgements](#acknowledgements)
@@ -252,37 +252,12 @@ Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/
 
 All devices were able to pass all tests. There were some minor stylistic inconsistencies across the devices, such as headings on the iPhone SE not being vertically centered as they should. 
 
-### Browser testing
+### Browser compatability
 
 - **Microsoft Edge**: Website and user stories work as expected. 
 - **Google Chrome**: Website and user stories work as expected. 
 - **Safari**: Safari on some older iPhones (iPhone SE) will not vertically align heading text over heading images. Other than this, website and user stories work as expected. 
 - **Firefox**: Website and user stories work as expected. 
-
-### Bugs found and resolved during development
-
-- **Bug**: On mobile view all pages had a blank bar of white space to the right of the screen that would trigger a horizontal scrollbar. 
-- **Fix**: I discovered this is a common bug with Bootstrap rows. To fix this I set a CSS rule for the root element that the 'overflow-x' be 'hidden'.
-- **Bug**: The about page's bottom row cards would overlap with the footer at a certain screen width.
-- **Fix**: Lowered the min-width of the media query to include this screen width and increased the bottom-margin of the cards within this query.
-- **Bug**: List items being pushed onto the next line was causing inconsistencies across card heights.
-- **Fix**: Removed bottom padding on the font awesome tick icon.
-- **Bug**: Buttons were not passing WAVE accessability standards due to colour contrast failures. 
-- **Fix**: Set the colour property of all anchor elements to black. 
-- **Bug**: The about page's row of three cards would overlap into each other on tablet view. 
-- **Fix**: Eeplaced the col-md-4 class with col-md-6 and col-lg-4 classes, and put them into one row over two.
-- **Bug**: Page loading speed was slow. I could not get the performance metric in Google lighthouse above 74% for all pages. 
-- **Fix**: Optimised the PNG images by making the file sizes smaller, then converted all PNGs to WEBP. 
-- **Bug**: Modal button not opening the modal. 
-- **Fix**: Added 'bs' classes to 'data-bs-toggle' and 'data-bs-target'. Realised mistake by re-reading Bootstrap [documentation](https://getbootstrap.com/docs/5.0/components/modal/) more closely. 
-- **Bug**: Footer list items which contained social media icons were classed as empty list items by WAVE accessability tool. 
-- **Fix**: Added aria-hidden attribute with the value of 'true' to the iframe element within the list item, and added a class of 'sr-only' to the span containing the text version of the icon. 
-- **Bug**: Submit and reset buttons on modal were classes as empty by WAVE accessability tool. 
-- **Fix**: Added values of 'submit' and 'reset' to prospective buttons. 
-- **Bug**: All headings produced contrast errors by WAVE accessability tool. 
-- **Fix**: Added linear-background to background-image of heading divs.
-- **Bug**: Form on contact page was not submitting properly. 
-- **Fix**: The IDs were incorrectly typed (duplicate IDs to modal form and incorrect on corresponding labels). I realised the mistake due to HTML validation errors and changed accordingly. 
 
 ### Testing user stories
 
@@ -411,6 +386,31 @@ All devices were able to pass all tests. There were some minor stylistic inconsi
 | Information on Pricing page about training classes |   Find Pricing page from the navigation bar OR footer    | To find information about three training classes that improve fitness | Works as expected |
 
 [Screenshot to support user story](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/testing/user-story-3-9-15.png)
+
+## Bugs found and resolved during development
+
+- **Bug**: On mobile view all pages had a blank bar of white space to the right of the screen that would trigger a horizontal scrollbar. 
+- **Fix**: I discovered this is a common bug with Bootstrap rows. To fix this I set a CSS rule for the root element that the 'overflow-x' be 'hidden'.
+- **Bug**: The about page's bottom row cards would overlap with the footer at a certain screen width.
+- **Fix**: Lowered the min-width of the media query to include this screen width and increased the bottom-margin of the cards within this query.
+- **Bug**: List items being pushed onto the next line was causing inconsistencies across card heights.
+- **Fix**: Removed bottom padding on the font awesome tick icon.
+- **Bug**: Buttons were not passing WAVE accessability standards due to colour contrast failures. 
+- **Fix**: Set the colour property of all anchor elements to black. 
+- **Bug**: The about page's row of three cards would overlap into each other on tablet view. 
+- **Fix**: Eeplaced the col-md-4 class with col-md-6 and col-lg-4 classes, and put them into one row over two.
+- **Bug**: Page loading speed was slow. I could not get the performance metric in Google lighthouse above 74% for all pages. 
+- **Fix**: Optimised the PNG images by making the file sizes smaller, then converted all PNGs to WEBP. 
+- **Bug**: Modal button not opening the modal. 
+- **Fix**: Added 'bs' classes to 'data-bs-toggle' and 'data-bs-target'. Realised mistake by re-reading Bootstrap [documentation](https://getbootstrap.com/docs/5.0/components/modal/) more closely. 
+- **Bug**: Footer list items which contained social media icons were classed as empty list items by WAVE accessability tool. 
+- **Fix**: Added aria-hidden attribute with the value of 'true' to the iframe element within the list item, and added a class of 'sr-only' to the span containing the text version of the icon. 
+- **Bug**: Submit and reset buttons on modal were classes as empty by WAVE accessability tool. 
+- **Fix**: Added values of 'submit' and 'reset' to prospective buttons. 
+- **Bug**: All headings produced contrast errors by WAVE accessability tool. 
+- **Fix**: Added linear-background to background-image of heading divs.
+- **Bug**: Form on contact page was not submitting properly. 
+- **Fix**: The IDs were incorrectly typed (duplicate IDs to modal form and incorrect on corresponding labels). I realised the mistake due to HTML validation errors and changed accordingly. 
 
 ## Deployment
 
