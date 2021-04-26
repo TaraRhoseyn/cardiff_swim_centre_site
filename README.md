@@ -14,10 +14,11 @@
     3. [Scope](#scope)
     4. [Design](#design)
     5. [Wireframes](#wireframes)
-3. [Technologies Used](#technologies-used)
+3. [Features](#features)
+4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks,-libraries-and-other-tools)
-4. [Testing](#testing)
+5. [Testing](#testing)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [Accessability](#accessability)
@@ -25,9 +26,9 @@
     5. [Device testing](#performing-tests-on-various-devices)
     6. [Browser compatability](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
-5. [Bugs](#Bugs-found-and-resolved-during-development)
-6. [Deployment](#deployment)
-7. [Credits](#credits)
+6. [Bugs](#Bugs-found-and-resolved-during-development)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
     1. [Code](#code)
     2. [Media](#media)
     3. [Acknowledgements](#acknowledgements)
@@ -119,6 +120,7 @@ Features to be built in future releases:
 - The ability to toggle which days you want to view in the pool timetable on mobile view. 
 - A collapsible carousel on the About page on mobile view to switch view between cards.
 
+*Find more information on features in the [Features section](#features)*
 
 ## Design
 
@@ -151,6 +153,34 @@ They're striking images that give an energetic feel to the website which stands 
 ## Wireframes
 
 - Wireframes: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-home.pdf) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-about.pdf) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-timetable.pdf) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-pricing.pdf) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-contact.pdf) [Modal](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-modal.pdf) [Credit](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/wireframes/wireframes-credit.pdf)
+
+## Features
+
+The website consists of five pages and 10 features.
+
+### Current Features
+
+#### Feature 1: Home Page
+
+#### Feature 2: About Page
+
+#### Feature 3: Timetable Page
+
+#### Feature 4: Pricing Page
+
+#### Feature 5: Contact Page
+
+#### Feature 6: 404 Error Page
+
+#### Feature 7: Navigation Bar
+
+#### Feature 8: Footer 
+
+#### Feature 9: Join Up Modal 
+
+#### Feature 10: Contact Form 
+
+### Features for Future Releases
 
 ## Technologies Used
 
