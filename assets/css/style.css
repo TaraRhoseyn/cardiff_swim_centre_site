@@ -537,7 +537,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     text-align: left;
 }
 
-#card-pool .card-body, #card-benefits .card-body {
+#card-pool .card-body, #card-benefits .card-body, .card {
     border-radius: 25px;
 }
 
@@ -1109,7 +1109,7 @@ p.price-explanation {
     border-radius: 50%;
 }
 
-/* This to ensure margins and heights maintain consistent and visually pleasing at various screen sizes */ 
+/* This to ensure margins and heights maintain consistent and visually pleasing at various screen sizes */
 
 @media screen and (min-width: 425px) {
     .non-price {
