@@ -3,7 +3,7 @@
 
 ![Responsible mockup of the website](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/mockup/responsive-mockup.PNG)
 
-[View the deployed website](https://tararhoseyn.github.io/CardiffSwimCentreMS1/index.html)
+[View the deployed website](https://tararhoseyn.github.io/CI_MS1_CardiffSwimCentre/)
 
 ## Table of Content
 
