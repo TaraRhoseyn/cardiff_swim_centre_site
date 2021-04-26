@@ -23,8 +23,9 @@
     3. [Accessability](#accessability)
     4. [Performance](#performance)
     5. [Device testing](#performing-tests-on-various-devices)
-    6. [Bugs](#Bugs-found-and-resolved-during-development)
-    7. [Testing user stories](#testing-user-stories)
+    6. [Browser testing](#browser-testing)
+    7. [Bugs](#Bugs-found-and-resolved-during-development)
+    8. [Testing user stories](#testing-user-stories)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
     1. [Code](#code)
@@ -250,6 +251,13 @@ Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/
 #### Results: 
 
 All devices were able to pass all tests. There were some minor stylistic inconsistencies across the devices, such as headings on the iPhone SE not being vertically centered as they should. 
+
+### Browser testing
+
+- **Microsoft Edge**: Website and user stories work as expected. 
+- **Google Chrome**: Website and user stories work as expected. 
+- **Safari**: Safari on some older iPhones (iPhone SE) will not vertically align heading text over heading images. Other than this, website and user stories work as expected. 
+- **Firefox**: Website and user stories work as expected. 
 
 ### Bugs found and resolved during development
 
