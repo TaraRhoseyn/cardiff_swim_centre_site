@@ -185,6 +185,8 @@ a.black:hover {
     background-color: #DFF9FF;
 }
 
+/* The Navbar has different media queries to ensure readability and aesthetically pleasing margin spacing across different screens */
+
 @media screen and (min-width: 0px) {
     .nav-link {
         font-family: 'Nunito', sans-serif;
@@ -246,7 +248,6 @@ ul {
     border-radius: 50px;
     margin-right: 15px;
     background-color: #0043A8;
-
     text-decoration: none;
     color: #fff;
     font-family: 'Nunito', sans-serif;
@@ -514,19 +515,19 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
 
 /* HOME PAGE: FEATURES SECTION */ 
 
+/* The below media query is to ensure that the features section and the hero image have enough clearance between them on tablet and up screens */
+
 @media screen and (min-width: 768px) {
     .features-section {
     margin-top: 80px;
     } 
 }
 
+/* Credit for box-shadow code: https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp */
+
 .features-card {
     box-shadow: 1px 1px 20px 1px #d6d6d6;
     padding: 0;
-}
-
-#card-pool, #card-benefits {
-    border-radius: 25px;
 }
 
 #card-pool ul li, #card-benefits ul li {
@@ -540,7 +541,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     border-radius: 25px;
 }
 
-/* media query to ensure the Home page cards have suitable margins in tablet and desktop view */
+/* Media query to ensure the Home page cards have suitable margins in tablet and desktop view */
 
 @media screen and (min-width: 768px) {
     #card-pool, #card-benefits {
@@ -551,11 +552,6 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
 }
 
 .home-features #card-header-pool {
-    background-color: #DFF9FF;
-    padding: 20px;
-}
-
-.home-features #card-header-benefits {
     background-color: #DFF9FF;
     padding: 20px;
 }
@@ -581,7 +577,7 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     margin-bottom: 80px;
 }
 
-/* The purpose of the below grid is to make the tiled image effect seen in the ethos section of the Home page */
+/* The purpose of the below grid is to make the tiled image effect seen in the ethos section of the Home page. Negative margins are used to achieve the 'dripping' effect seen in the image layout. */
 
 /* Credit: Learnt how to make CSS grids through this tutorial: https://www.w3schools.com/css/css_grid.asp*/
 
@@ -648,12 +644,16 @@ Added linear-gradient to pass WAVE accessability tool contrast checker */
     padding-left: 5px;
 }
 
+/* Media query below used to ensure proper margin spacing between liste items in the location section of the home page */
+
 @media screen and (max-width: 767px) {
     .location-container li {
         margin-top: 30px;
         margin-bottom: 30px;
     }
 }
+
+/* Width had to be manually set for the embedded map to ensure the map didn't push out horizontal side of page on mobile view */
 
 .google-map {
     width: 100%;
@@ -1108,6 +1108,8 @@ p.price-explanation {
 .card-img-training {
     border-radius: 50%;
 }
+
+/* This to ensure margins and heights maintain consistent and visually pleasing at various screen sizes */ 
 
 @media screen and (min-width: 425px) {
     .non-price {
