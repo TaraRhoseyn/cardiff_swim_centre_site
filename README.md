@@ -457,7 +457,7 @@ By forking this GitHub repository you are making a copy of the original to view 
 - **Core Langs** - for outer and inner [div lesson](http://www.corelangs.com/css/box/divindiv.html) to properly center content. Used heavily for creating the underline ‘circle’ effect you see in the navigation bar.  
 - **Stack Overflow** - for [changing the colour](https://stackoverflow.com/questions/65161206/how-to-change-bootstrap-navbar-toggler-icon*/) of the Bootstrap toggle icon. For input and label [display properties](https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs). For HTML rule eliminiating [horizontal scrollbar bug](https://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers)
 - **Geeks for Geeks** - for the [linear-background code](https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/) that allowed my pages to pass WAVE accessibility tool. 
-- **W3C Schools** - for [CSS grid](https://www.w3schools.com/css/css_grid.asp*/) code. 
+- **W3C Schools** - for [CSS grid](https://www.w3schools.com/css/css_grid.asp*/) code. For [box-shadow](https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp)
 
 
 ### Media
