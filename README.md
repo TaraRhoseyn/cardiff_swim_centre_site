@@ -177,7 +177,7 @@ The copy found in Section 3, like all copy on the website, was written by myself
 
 I chose a striking image to evoke feelings of motivation and inspiration in the user. The call to action is highly important in the visual hierarchy of this section. 
 
-![Hero image]()
+![Hero image](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-1-one.PNG)
 
 **Section 2, the features:**
 
@@ -185,7 +185,7 @@ These elements are made from Bootstrap cards. They were originally divs I gave c
 
 The transition from divs to Bootstrap cards made no stylistic differences as I was able to recreate the look with colours, centering and border radius exactly.
 
-![Features section]()
+![Features section](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-1-two.PNG)
 
 **Section 3, company ethos:** 
 
@@ -193,13 +193,13 @@ The image layout effect below was made using a custom CSS grid and negative marg
 
 The marketing copy like all others found on the website was written by myself.
 
-![Ethos section]()
+![Ethos section](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-1-three.PNG)
 
 **Section 4, location map:** 
 
 The map used was Google Maps.
 
-![Location map]()
+![Location map](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-1-four.PNG)
 
 **User stories covered by this feature:** 
 
@@ -225,7 +225,7 @@ The page is fully responsive on mobile and tablet.
 
 I learnt how to create the visual effect on this image through a Code Institute lesson. See 'Credits' for more details.
 
-![Heading of About Page]()
+![Heading of About Page](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-2-one.PNG)
 
 **Section 2, Company history:** 
 
@@ -238,9 +238,9 @@ The image was created using the following steps:
 3. Make image monochromatic in Adobe Photoshop. 
 4. Create custom shape using the branded cyan colour already established on the rest of the page, and add this as the new background.
 
-![Company values on desktop]()
+![Company values on desktop](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-2-two-a.PNG)
 
-![Company values on mobile]()
+![Company values on mobile](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-2-two-b.PNG)
 
 **Section 3, What we offer section:**
 
@@ -248,11 +248,11 @@ This section gives an overview of all that is offered by the Swim Centre, from p
 
 The components here are Bootstrap cards. I purposefully chose to have six cards so that on desktop they would display in a row of 3, on tablet 2, and on mobile 1. 
 
-![Offer section on desktop]()
+![Offer section on desktop](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-2-three-a.PNG)
 
-![Offer section on tablet]()
+![Offer section on tablet](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-2-three-b.PNG)
 
-![Offer section on mobile]()
+![Offer section on mobile](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-2-three-c.PNG)
 
 **User stories covered by this feature:** 
 
@@ -272,7 +272,7 @@ I also included a PDF version of the timetable on the site for users to open and
 
 The page is fully responsive on mobile and tablet.
 
-![Timetable]()
+![Timetable](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-3.PNG)
 
 **User stories covered by this feature:** 
 
@@ -291,13 +291,13 @@ The pricing page contains two main sections and is fully responsive on mobile an
 
 This section lays out clearly the benefits of joining the Swim Centre as a member, encouraging the conversion. I chose to use the primary bright cyan colour on the 'Member' square to make that the more appealing option. The components were made with Bootstrap cards with custom styling such as box-shadows and colour. 
 
-![Pricing model]()
+![Pricing model](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-4-one.PNG)
 
 **Section 2, Training classes section:**
 
 This section gives more information about the specific training classes on offer and what they are intended to be used for. Bootstrap card components were used to make these. This is one of the sections that uses emotive language about motivation heavily. It also includes a call to action to go the timetable page to see when these classes take place. 
 
-![Training classes section]()
+![Training classes section](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-4-two.PNG)
 
 **User stories covered by this feature:** 
 
@@ -308,11 +308,11 @@ This section gives more information about the specific training classes on offer
 
 #### Feature 5: Contact Page
 
-The contact page contains a form (please see [Feature 10](#feature-10:-contact-form) for specifics about the form) and an accompanying image. 
+The contact page contains a form (please see Feature 10 for specifics about the form) and an accompanying image. 
 
 The image is removed from view on mobile and tablet view as it does not enhance the meaning of the content on the page. 
 
-![Contact page]()
+![Contact page](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-5.PNG)
 
 The page is fully responsive on mobile and tablet.
 
@@ -326,7 +326,7 @@ This page displays when a user enters a URL that does not exist. The main purpos
 
 The page is fully responsive on mobile and tablet.
 
-![404 page]()
+![404 page](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-6.PNG)
 
 While this page does not cover any specific user story, it aids them all by allowing the user to easily navigate themselves back to all of the other features and pages on the site.
 
@@ -334,11 +334,11 @@ While this page does not cover any specific user story, it aids them all by allo
 
 The navigation bar of the website is displayed at the top of the home, about, timetable, pricing, contact and 404 pages. It is based on the Bootstrap navbar component and is responsive. On small devices the navbar collapses and opens with a toggle icon. 
 
-It also contains a call to action 'Join' button that opens a modal (see [Feature 9](#feature-9:-join-up-modal) for more details)
+It also contains a call to action 'Join' button that opens a modal (see Feature 9 for more details)
 
-![Navigation bar on desktop view]()
+![Navigation bar on desktop view](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-7-one.PNG)
 
-![Navigation bar on mobile view]()
+![Navigation bar on mobile view](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-7-two.PNG)
 
 **User stories covered by this feature:** 
 
@@ -354,9 +354,9 @@ The following user stories are fulfilled by this navigation bar as they relate t
 
 The footer is displayed at the bottom of the home, about, pricing, timetable, contact and 404 pages. It contains links to social media, the pricing page, the contact page and the location section of the home page. It has two versions: one for medium and large screen sizes and one for small.
 
-![Footer on desktop view]()
+![Footer on desktop view](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-8-one.PNG)
 
-![Footer on mobile view]()
+![Footer on mobile view](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-8-two.PNG)
 
 **User stories covered by this feature:** 
 
@@ -369,7 +369,7 @@ The footer is displayed at the bottom of the home, about, pricing, timetable, co
 
 The modal is opened when a user clicks on the 'Join' button in the navigation bar or certain call to action buttons on the pricing page and home page. The modal contains a form in which users can sign up to be regular members of the Swim Centre. The modal was made using a Bootstrap component. It is responsive on mobile view.
 
-![Modal]()
+![Modal](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-9.PNG)
 
 **User stories covered by this feature:** 
 
@@ -379,7 +379,7 @@ The modal is opened when a user clicks on the 'Join' button in the navigation ba
 
 The contact form is the main content found on the contact page. The form is functional and uses the POST method. The form will be submitted until all fields are inputted.
 
-![Contact form]()
+![Contact form](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-10.PNG)
 
 **User stories covered by this feature:** 
 
@@ -411,7 +411,7 @@ The contact form is the main content found on the contact page. The form is func
 8. [Google Fonts](https://fonts.google.com/)
 - Nunito from Google Fonts was used as the main heading font throughout the site.
 9. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-- Bootstrap was primarily used for layout, stylying and responsiveness purposes.
+- Bootstrap was used for layout, stylying and responsiveness purposes. The following components were used: navigation bar, card and responsive table. 
 10. [Hover.css](https://ianlunn.github.io/Hover/)
 - The 2D 'grow' effect from the Hover.css library was used on all buttons throughout the website and on images within the Ethos section of the homepage.
 11. [Unsplash](https://unsplash.com/) 
