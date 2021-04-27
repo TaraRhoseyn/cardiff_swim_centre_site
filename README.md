@@ -387,6 +387,11 @@ The contact form is the main content found on the contact page. The form is func
 
 ### Features for Future Releases
 
+1. Multi-page form to purchase membership and the ability to sign up to monthly direct debit payments.
+2. Booking system for training classes.
+3. The ability to toggle which days you want to view in the pool timetable on mobile view.
+4. A collapsible carousel on the About page on mobile view to switch view between cards.
+
 ## Technologies Used
 
 ### Languages 
