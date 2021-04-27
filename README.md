@@ -268,7 +268,7 @@ The timetable page gives users all the times the pool will be open for specific 
 
 The table was made with the Bootstrap responsive table component, this allows the table to be scrolled horizontally on mobile view, so no information is lost. Originally I had planned to include a drop-down menu on mobile view in which you could pick which day/s you wanted to view at a time, but this was not possible without JavaScript or another external framework. In future releases, more work can be done around optimising this timetable for mobile use. I also included the 'closed' content to ensure the page passed the WAVE accessibility tool with 0 errors, as originally those spaces had been classes as empty rows.
 
-I also included a PDF version of the timetable on the site for users to open and download. I did this as I know from my own experience in a swimming family that many swimmers like to have a copy of the timetable easily at hand at home, for example on a pin board. But I included a QR code on the PDF to encourage users to return to the website too.
+I also included a PDF version of the timetable on the site for users to open and download. I did this as I know from my own experience in a swimming family that many swimmers like to have a copy of the timetable easily at hand at home, for example on a pin board. I included a QR code on the PDF to encourage users to return to the website too.
 
 The page is fully responsive on mobile and tablet.
 
@@ -373,7 +373,7 @@ The modal is opened when a user clicks on the 'Join' button in the navigation ba
 
 **User stories covered by this feature:** 
 
-- User story 12: As a site owner, I want customers to be able to join as members in an easy and intuitive way directly on the website. The form is functional and uses the POST method. The form will be submitted until all fields are inputted.
+- User story 12: As a site owner, I want customers to be able to join as members in an easy and intuitive way directly on the website. The form is functional and uses the POST method. The form won't be submitted until all fields are inputted.
 
 #### Feature 10: Contact Form 
 
@@ -416,7 +416,7 @@ The contact form is the main content found on the contact page. The form is func
 8. [Google Fonts](https://fonts.google.com/)
 - Nunito from Google Fonts was used as the main heading font throughout the site.
 9. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-- Bootstrap was used for layout, stylying and responsiveness purposes. The following components were used: navigation bar, card and responsive table. 
+- Bootstrap was used for layout, styling and responsiveness purposes. The following components were used: navigation bar, card and responsive table. 
 10. [Hover.css](https://ianlunn.github.io/Hover/)
 - The 2D 'grow' effect from the Hover.css library was used on all buttons throughout the website and on images within the Ethos section of the homepage.
 11. [Unsplash](https://unsplash.com/) 
@@ -471,13 +471,13 @@ Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/
 
 #### Tests performed: 
 
-1. Page links in the navigation bar are able to direct users to the correct page, and no broken links or present on the static navigation bar or it's collapsed version. 
+1. Page links in the navigation bar are able to direct users to the correct page, and no broken links are present on the static navigation bar or it's collapsed version. 
 2. Page, anchor and outbound links are able to direct users to the correct place with no broken links on desktop or mobile version. 
 3. The 'join' modal opens up correctly and is able to close by clicking away or clicking the close icon. 
 4. The form on the 'join' modal will not submit until all fields are filled out. An alert will be present when a user attempts this.
 5. The timetable is scrollable on mobile and tablet view. 
 6. The timetable.pdf opens appropriately and can be downloaded.
-7. The row of cards in the about page collapsable into a single-view column appropriately on mobile and tablet view. 
+7. The row of cards in the about page collapses into a single-view column appropriately on mobile and tablet view. 
 8. If an incorrect URL is attempted the user is redirected to a 404 page which will direct them back to the home page. 
 9. The google map has a location pin to let users know where the pool is. 
 10. The form on the contact page will not submit until all fields are filled out. An alert will be present when a user attempts this.
@@ -615,7 +615,7 @@ All devices were able to pass all tests. There were some minor stylistic inconsi
 
 | Feature                            |                 Action                 |                           Expected result |     Actual result |
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
-| Contage page with a form for feedback and queries | Click on 'Contact' in the navigation bar or footer | To be able to sumit a query or feedback once all fields are inputted | Works as expected |
+| Contact page with a form for feedback and queries | Click on 'Contact' in the navigation bar or footer | To be able to submit a query or feedback once all fields are inputted | Works as expected |
 
 [Screenshot to support user story](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/testing/user-story-14.png)
 
@@ -638,7 +638,7 @@ All devices were able to pass all tests. There were some minor stylistic inconsi
 - **Bug**: Buttons were not passing WAVE accessibility standards due to colour contrast failures. 
 - **Fix**: Set the colour property of all anchor elements to black. 
 - **Bug**: The about page's row of three cards would overlap into each other on tablet view. 
-- **Fix**: Eeplaced the col-md-4 class with col-md-6 and col-lg-4 classes, and put them into one row over two.
+- **Fix**: Replaced the col-md-4 class with col-md-6 and col-lg-4 classes, and put them into one row over two.
 - **Bug**: Page loading speed was slow. I could not get the performance metric in Google lighthouse above 74% for all pages. 
 - **Fix**: Optimised the PNG images by making the file sizes smaller, then converted all PNGs to WEBP. 
 - **Bug**: Modal button not opening the modal. 
