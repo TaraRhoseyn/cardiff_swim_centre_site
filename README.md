@@ -84,7 +84,7 @@ I have divided my user stories into two categories: first-time users and regular
 #### Regular visitors
 
 8. As a regular visitor, I want to see a timetable so that I can know which times I can use the pool. 
-9. As a regular visitor, I want to see information about classes 
+9. As a regular visitor, I want to see information about classes. 
 10. As a regular visitor, I want to understand the pricing model to understand if becoming a member is cost effective. 
 11. As a regular visitor, I want to be able to see what the pool offers to see if there are any updates.
 
@@ -162,23 +162,228 @@ The website consists of five pages and 10 features.
 
 #### Feature 1: Home Page
 
+The homepage contains four main sections: 
+
+1. A hero image with a joining call to action.
+2. A 'features' section which contains key information such as facilities and member benefits.
+3. An 'ethos' section which communicated company values.
+4. A location map to help users find the Centre and some parking information. 
+
+The page is fully responsive on mobile and tablet.
+
+The copy found in Section 3, like all copy on the website, was written by myself. The map used in Section 4 came from Google Maps. 
+
+**Section 1, the hero image:**
+
+I chose a striking image to evoke feelings of motivation and inspiration in the user. The call to action is highly important in the visual hierarchy of this section. 
+
+![Hero image]()
+
+**Section 2, the features:**
+
+These elements are made from Bootstrap cards. They were originally divs I gave custom height, weight and margin properties to at various screen sizes using media queries, but I realised towards the end of the project it was much easier and cleaner to remake the same elements out of Bootstrap components as they are automatically responsive.
+
+The transition from divs to Bootstrap cards made no stylistic differences as I was able to recreate the look with colours, centering and border radius exactly.
+
+![Features section]()
+
+**Section 3, company ethos:** 
+
+The image layout effect below was made using a custom CSS grid and negative margin values. 
+
+The marketing copy like all others found on the website was written by myself.
+
+![Ethos section]()
+
+**Section 4, location map:** 
+
+The map used was Google Maps.
+
+![Location map]()
+
+**User stories covered by this feature:** 
+
+User story 1: As a first time user, I want to know the specifications of the pools so I know it's suited to my needs as a fast or long-distance swimmer.
+
+User story 2: As a first time user, I want to see location information so that I can know where to go to use the pool and plan my journey.
+
+User story 4: As a first time user, I want to understand their brand values align with my own as a fitness enthusiast.
+
+User story 11: As a regular visitor, I want to be able to see what the pool offers to see if there are any updates.
+
 #### Feature 2: About Page
+
+The about page has three main sections:
+
+1. Heading 
+2. Company history section
+3. What we offer section
+
+The page is fully responsive on mobile and tablet.
+
+**Section 1, The heading:** 
+
+I learnt how to create the visual effect on this image through a Code Institute lesson. See 'Credits' for more details.
+
+![Heading of About Page]()
+
+**Section 2, Company history:** 
+
+The layout of this section was achieved through simple Bootstrap row grid. On mobile view the image and marketing copy take up the full width of the screen and are stacked on top of one another. At medium screen size or larger they sit next to each other. 
+
+The image was created using the following steps: 
+
+1. Download image from Unsplash (See 'Credits' for more details).
+2. Remove background of image in Adobe Photoshop.
+3. Make image monochromatic in Adobe Photoshop. 
+4. Create custom shape using the branded cyan colour already established on the rest of the page, and add this as the new background.
+
+![Company values on desktop]()
+
+![Company values on mobile]()
+
+**Section 3, What we offer section:**
+
+This section gives an overview of all that is offered by the Swim Centre, from pool specifications to the cafe to member benefits to training classes. 
+
+The components here are Bootstrap cards. I purposefully chose to have six cards so that on desktop they would display in a row of 3, on tablet 2, and on mobile 1. 
+
+![Offer section on desktop]()
+
+![Offer section on tablet]()
+
+![Offer section on mobile]()
+
+**User stories covered by this feature:** 
+
+- User story 1: As a first time user, I want to know the specifications of the pools so I know it's suited to my needs as a fast or long-distance swimmer.
+- User story 3: As a first time user, I want to see information about classes so that I know I can improve my fitness.
+- User story 4: As a first time user, I want to understand their brand values align with my own as a fitness enthusiast.
+- User story 9: As a regular visitor, I want to see information about classes.
+- User story 15: As a site owner, I want customers to find information about classes in language that is plain and accessible to ensure appropriate use of training.
 
 #### Feature 3: Timetable Page
 
+The timetable page gives users all the times the pool will be open for specific activities, such as certain classes or lane swimming times. 
+
+The table was made with the Bootstrap responsive table component, this allows the table to be scrolled horizontally on mobile view, so no information is lost. Originally I had planned to include a drop-down menu on mobile view in which you could pick which day/s you wanted to view at a time, but this was not possible without JavaScript or another external framework. In future releases, more work can be done around optimising this timetable for mobile use. I also included the 'closed' content to ensure the page passed the WAVE accessability tool with 0 errors, as originally those spaces had been classes as empty rows.
+
+I also included a PDF version of the timetable on the site for users to open and download. I did this as I know from my own experience in a swimming family that many swimmers like to have a copy of the timetable easily at hand at home, for example on a pin board. But I included a QR code on the PDF to encourage users to return to the website too.
+
+The page is fully responsive on mobile and tablet.
+
+![Timetable]()
+
+**User stories covered by this feature:** 
+
+- User story 6: As a first time user, I want to see a timetable to ensure it works with my own schedules.
+- User story 8: As a regular visitor, I want to see a timetable so that I can know which times I can use the pool.
+- User story 13: As a site owner, I want customers to be able to access our pool timetable quickly and easily to ensure they can access services at their desired time.
+
 #### Feature 4: Pricing Page
+
+The pricing page contains two main sections and is fully responsive on mobile and tablet: 
+
+1. Pricing model section
+2. Training classes section
+
+**Section 1, Pricing model section:** 
+
+This section lays out clearly the benefits of joining the Swim Centre as a member, encouraging the conversion. I chose to use the primary bright cyan colour on the 'Member' square to make that the more appealing option. The components were made with Bootstrap cards with custom styling such as box-shadows and colour. 
+
+![Pricing model]()
+
+**Section 2, Training classes section:**
+
+This section gives more information about the specific training classes on offer and what they are intended to be used for. Bootstrap card components were used to make these. This is one of the sections that uses emotive language about motivation heavily. It also includes a call to action to go the timetable page to see when these classes take place. 
+
+![Training classes section]()
+
+**User stories covered by this feature:** 
+
+- User story 3: As a first time user, I want to see information about classes so that I know I can improve my fitness.
+- User story 7: As a first time user, I want to know the prices of using the pool and membership.
+- User story 10: As a regular visitor, I want to understand the pricing model to understand if becoming a member is cost effective.
+- User story 15: As a site owner, I want customers to find information about classes in language that is plain and accessible to ensure appropriate use of training.
 
 #### Feature 5: Contact Page
 
+The contact page contains a form (please see [Feature 10](#feature-10:-contact-form) for specifics about the form) and an accompanying image. 
+
+The image is removed from view on mobile and tablet view as it does not enhance the meaning of the content on the page. 
+
+![Contact page]()
+
+The page is fully responsive on mobile and tablet.
+
+**User stories covered by this feature:** 
+
+- User story 14: As a site owner, I want prospective customers to be able to contact us with queries or feedback easily.
+
 #### Feature 6: 404 Error Page
+
+This page displays when a user enters a URL that does not exist. The main purpose of this page is to let users know that an error has occurred and to redirect them back to the website. The design of this page is simple as I want users to return the main pages of the site as soon as possible upon seeing this page. It consists of a heading, subheading and button.
+
+The page is fully responsive on mobile and tablet.
+
+![404 page]()
+
+While this page does not cover any specific user story, it aids them all by allowing the user to easily navigate themselves back to all of the other features and pages on the site.
 
 #### Feature 7: Navigation Bar
 
+The navigation bar of the website is displayed at the top of the home, about, timetable, pricing, contact and 404 pages. It is based on the Bootstrap navbar component and is responsive. On small devices the navbar collapses and opens with a toggle icon. 
+
+It also contains a call to action 'Join' button that opens a modal (see [Feature 9](#feature-9:-join-up-modal) for more details)
+
+![Navigation bar on desktop view]()
+
+![Navigation bar on mobile view]()
+
+**User stories covered by this feature:** 
+
+- User story 12: As a site owner, I want customers to be able to join as members in an easy and intuitive way directly on the website.
+
+The following user stories are fulfilled by this navigation bar as they relate to speed and clarity in finding pages and information, which is what the navigation bar is there to assist in: 
+
+- User story 7: As a first time user, I want to know the prices of using the pool and membership.
+- User story 13: As a site owner, I want customers to be able to access our pool timetable quickly and easily to ensure they can access services at their desired time.
+- User story 14: As a site owner, I want prospective customers to be able to contact us with queries or feedback easily.
+
 #### Feature 8: Footer 
+
+The footer is displayed at the bottom of the home, about, pricing, timetable, contact and 404 pages. It contains links to social media, the pricing page, the contact page and the location section of the home page. It has two versions: one for medium and large screen sizes and one for small.
+
+![Footer on desktop view]()
+
+![Footer on mobile view]()
+
+**User stories covered by this feature:** 
+
+- User story 2: As a first time user, I want to see location information so that I can know where to go to use the pool and plan my journey.
+- User story 5: As a first time user, I want to locate their social media accounts so I can receive regular updates from them and see how well known they are in the world of swimming.
+- User story 13: As a site owner, I want customers to be able to access our pool timetable quickly and easily to ensure they can access services at their desired time.
+- User story 14: As a site owner, I want prospective customers to be able to contact us with queries or feedback easily.
 
 #### Feature 9: Join Up Modal 
 
+The modal is opened when a user clicks on the 'Join' button in the navigation bar or certain call to action buttons on the pricing page and home page. The modal contains a form in which users can sign up to be regular members of the Swim Centre. The modal was made using a Bootstrap component. It is responsive on mobile view.
+
+![Modal]()
+
+**User stories covered by this feature:** 
+
+- User story 12: As a site owner, I want customers to be able to join as members in an easy and intuitive way directly on the website. The form is functional and uses the POST method. The form will be submitted until all fields are inputted.
+
 #### Feature 10: Contact Form 
+
+The contact form is the main content found on the contact page. The form is functional and uses the POST method. The form will be submitted until all fields are inputted.
+
+![Contact form]()
+
+**User stories covered by this feature:** 
+
+- User story 14: As a site owner, I want prospective customers to be able to contact us with queries or feedback easily.
 
 ### Features for Future Releases
 
