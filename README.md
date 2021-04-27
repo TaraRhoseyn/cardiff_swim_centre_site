@@ -21,10 +21,10 @@
 5. [Testing](#testing)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
-    3. [Accessability](#accessability)
+    3. [Accessibility](#accessibility)
     4. [Performance](#performance)
     5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatability](#browser-compatability)
+    6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
 6. [Bugs](#Bugs-found-and-resolved-during-development)
 7. [Deployment](#deployment)
@@ -45,18 +45,18 @@ The business goals of Cardiff Swim Centre (hereinafter referred to as CSW):
 The user goals:
 
 - Find a premier swimming pool where the priority is training.
-- Find a pool timetable that is instuitively built and easy to use. 
+- Find a pool timetable that is intuitively built and easy to use. 
 - Understand the differences between individual session pricing and membership pricing.
 - Find information about facilities at the pool.
 - Find out where the pool is located and parking information.
 
 ## User Experience
 
-I have designed this website with mobile in mind by creating bite-sized easily digestible pieces of content that can be seperated easily. 
+I have designed this website with mobile in mind by creating bite-sized easily digestible pieces of content that can be separated easily. 
 
 I have structured each page according to the information architecture organising principle of placing the most important content 'above the fold', then working my way down in order of priority. 
 
-The user experience is structured around two main goals, (a) to allow the users to discover CSW's location and brand philosophy, and (b) to users convert into members. Call to actions to these goals are found throughout the website and are given priority through the colour scheme, e.g. more important call to actions are more eye-catching. For example, the navigation bar displays a "Join" button in the top of all pages.
+The user experience is structured around two main goals, (a) to allow the users to discover CSW's location and brand philosophy, and (b) to  convert users into members. Call to actions to these goals are found throughout the website and are given priority through the colour scheme, e.g. more important call to actions are more eye-catching. For example, the navigation bar displays a "Join" button in the top of all pages.
 
 ### Target Audience
 
@@ -76,7 +76,7 @@ I have divided my user stories into two categories: first-time users and regular
 1. As a first time user, I want to know the specifications of the pools so I know it's suited to my needs as a fast or long-distance swimmer.
 2. As a first time user, I want to see location information so that I can know where to go to use the pool and plan my journey.
 3. As a first time user, I want to see information about classes so that I know I can improve my fitness.
-4. As a first time user, I want to understand their brand values align with my own as a fitness enthusiast.
+4. As a first time user, I want to ensure their brand values align with my own as a fitness enthusiast.
 5. As a first time user, I want to locate their social media accounts so I can receive regular updates from them and see how well known they are in the world of swimming.
 6. As a first time user, I want to see a timetable to ensure it works with my own schedules.
 7. As a first time user, I want to know the prices of using the pool and membership.
@@ -138,7 +138,7 @@ I picked blue first, as this gives the user memories and associations of water. 
 
 My heading font is Nunito from Google Fonts. I chose this font because:
 - The soft and curvy form that goes well with the rest of the visual language
-- It's a sans-serif font which is more accessible for people with dyslexia. Sans-serif is the back-up font is Nunito fails. 
+- It's a sans-serif font which is more accessible for people with dyslexia. Sans-serif is the back-up font if Nunito fails. 
 
 My body font is Montserrat. I chose this font because of:
 - Wide availability on web browsers. 
@@ -146,7 +146,7 @@ My body font is Montserrat. I chose this font because of:
 
 ### Imagery
 
-All images on the website are of professional quality and fully licensed. They usually depict swimmers in action to convey a dynamic, lively, and aspiration visual language. Please see 'Credits' section for more information on licenses.
+All images on the website are of professional quality and fully licensed. They usually depict swimmers in action to convey a dynamic, lively, and aspirational visual language. Please see 'Credits' section for more information on licenses.
 
 They're striking images that give an energetic feel to the website which stands out particularly well against the white space and modern aesthetic of the overall design. 
 
@@ -166,7 +166,7 @@ The homepage contains four main sections:
 
 1. A hero image with a joining call to action.
 2. A 'features' section which contains key information such as facilities and member benefits.
-3. An 'ethos' section which communicated company values.
+3. An 'ethos' section which communicates company values.
 4. A location map to help users find the Centre and some parking information. 
 
 The page is fully responsive on mobile and tablet.
@@ -207,7 +207,7 @@ User story 1: As a first time user, I want to know the specifications of the poo
 
 User story 2: As a first time user, I want to see location information so that I can know where to go to use the pool and plan my journey.
 
-User story 4: As a first time user, I want to understand their brand values align with my own as a fitness enthusiast.
+User story 4: As a first time user, I want to ensure their brand values align with my own as a fitness enthusiast.
 
 User story 11: As a regular visitor, I want to be able to see what the pool offers to see if there are any updates.
 
@@ -258,7 +258,7 @@ The components here are Bootstrap cards. I purposefully chose to have six cards 
 
 - User story 1: As a first time user, I want to know the specifications of the pools so I know it's suited to my needs as a fast or long-distance swimmer.
 - User story 3: As a first time user, I want to see information about classes so that I know I can improve my fitness.
-- User story 4: As a first time user, I want to understand their brand values align with my own as a fitness enthusiast.
+- User story 4: As a first time user, I want to ensure their brand values align with my own as a fitness enthusiast.
 - User story 9: As a regular visitor, I want to see information about classes.
 - User story 15: As a site owner, I want customers to find information about classes in language that is plain and accessible to ensure appropriate use of training.
 
@@ -266,7 +266,7 @@ The components here are Bootstrap cards. I purposefully chose to have six cards 
 
 The timetable page gives users all the times the pool will be open for specific activities, such as certain classes or lane swimming times. 
 
-The table was made with the Bootstrap responsive table component, this allows the table to be scrolled horizontally on mobile view, so no information is lost. Originally I had planned to include a drop-down menu on mobile view in which you could pick which day/s you wanted to view at a time, but this was not possible without JavaScript or another external framework. In future releases, more work can be done around optimising this timetable for mobile use. I also included the 'closed' content to ensure the page passed the WAVE accessability tool with 0 errors, as originally those spaces had been classes as empty rows.
+The table was made with the Bootstrap responsive table component, this allows the table to be scrolled horizontally on mobile view, so no information is lost. Originally I had planned to include a drop-down menu on mobile view in which you could pick which day/s you wanted to view at a time, but this was not possible without JavaScript or another external framework. In future releases, more work can be done around optimising this timetable for mobile use. I also included the 'closed' content to ensure the page passed the WAVE accessibility tool with 0 errors, as originally those spaces had been classes as empty rows.
 
 I also included a PDF version of the timetable on the site for users to open and download. I did this as I know from my own experience in a swimming family that many swimmers like to have a copy of the timetable easily at hand at home, for example on a pin board. But I included a QR code on the PDF to encourage users to return to the website too.
 
@@ -448,15 +448,15 @@ The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) w
 
 The CSS passed with [0 errors](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/css-validation/css-validation.PNG). 
 
-### Accessability
+### Accessibility
 
-The [WAVE WebAIM web accessability evaluation tool](https://wave.webaim.org/report#/https://tararhoseyn.github.io/CardiffSwimCentreMS1/) was used to ensure the website met high accessability standards. All pages pass with 0 errors.
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/report#/https://tararhoseyn.github.io/CardiffSwimCentreMS1/) was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
-Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-homepage.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-aboutpage.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-timetablepage.PNG) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-pricingpage.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-contactpage.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessability/WAVE-404page.PNG) 
+Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessibility/WAVE-homepage.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessibility/WAVE-aboutpage.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessibility/WAVE-timetablepage.PNG) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessibility/WAVE-pricingpage.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessibility/WAVE-contactpage.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/accessibility/WAVE-404page.PNG) 
 
 ### Performance 
 
-[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. Each page passed with at least 97% score on performance, 97% on accessability, 93% on best practices and 100% on SEO. 
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. Each page passed with at least 97% score on performance, 97% on accessibility, 93% on best practices and 100% on SEO. 
 
 Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-home.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-about.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-timetable.PNG) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-pricing.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-contact.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-404.PNG)
 
@@ -526,7 +526,7 @@ All devices were able to pass all tests. There were some minor stylistic inconsi
 
 [Screenshot to show user story](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/testing/user-story-3-9-15.png)
 
-*4. As a first time user, I want to understand their brand values align with my own as a fitness enthusiast.*
+*4. As a first time user, I want to ensure their brand values align with my own as a fitness enthusiast.*
 
 | Feature                            |                 Action                 |                           Expected result |     Actual result |
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
@@ -635,7 +635,7 @@ All devices were able to pass all tests. There were some minor stylistic inconsi
 - **Fix**: Lowered the min-width of the media query to include this screen width and increased the bottom-margin of the cards within this query.
 - **Bug**: List items being pushed onto the next line was causing inconsistencies across card heights.
 - **Fix**: Removed bottom padding on the font awesome tick icon.
-- **Bug**: Buttons were not passing WAVE accessability standards due to colour contrast failures. 
+- **Bug**: Buttons were not passing WAVE accessibility standards due to colour contrast failures. 
 - **Fix**: Set the colour property of all anchor elements to black. 
 - **Bug**: The about page's row of three cards would overlap into each other on tablet view. 
 - **Fix**: Eeplaced the col-md-4 class with col-md-6 and col-lg-4 classes, and put them into one row over two.
@@ -643,11 +643,11 @@ All devices were able to pass all tests. There were some minor stylistic inconsi
 - **Fix**: Optimised the PNG images by making the file sizes smaller, then converted all PNGs to WEBP. 
 - **Bug**: Modal button not opening the modal. 
 - **Fix**: Added 'bs' classes to 'data-bs-toggle' and 'data-bs-target'. Realised mistake by re-reading Bootstrap [documentation](https://getbootstrap.com/docs/5.0/components/modal/) more closely. 
-- **Bug**: Footer list items which contained social media icons were classed as empty list items by WAVE accessability tool. 
+- **Bug**: Footer list items which contained social media icons were classed as empty list items by WAVE accessibility tool. 
 - **Fix**: Added aria-hidden attribute with the value of 'true' to the iframe element within the list item, and added a class of 'sr-only' to the span containing the text version of the icon. 
-- **Bug**: Submit and reset buttons on modal were classes as empty by WAVE accessability tool. 
+- **Bug**: Submit and reset buttons on modal were classes as empty by WAVE accessibility tool. 
 - **Fix**: Added values of 'submit' and 'reset' to prospective buttons. 
-- **Bug**: All headings produced contrast errors by WAVE accessability tool. 
+- **Bug**: All headings produced contrast errors by WAVE accessibility tool. 
 - **Fix**: Added linear-background to background-image of heading divs.
 - **Bug**: Form on contact page was not submitting properly. 
 - **Fix**: The IDs were incorrectly typed (duplicate IDs to modal form and incorrect on corresponding labels). I realised the mistake due to HTML validation errors and changed accordingly. 
